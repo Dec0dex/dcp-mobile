@@ -1,0 +1,3 @@
+ktlint_function_naming_ignore_when_annotated_with=Composable
+[MainViewController.kt]
+ktlint_standard_function-name=disabled
