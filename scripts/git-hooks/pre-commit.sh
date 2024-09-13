@@ -16,6 +16,8 @@ fi
 ./gradlew lint detekt spotlessCheck
 ./gradlew dokkaHtml dokkaGfm
 
+git add docs/*
+
 ######## KTLINT-GRADLE HOOK START ########
 
 CHANGED_FILES="$(git --no-pager diff --name-status --no-color --cached | awk '$1 != "D" && $NF ~ /\.kts?$/ { print $NF }')"
