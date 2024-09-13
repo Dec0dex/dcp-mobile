@@ -72,8 +72,7 @@ If applicable please provide feature flags that needs to be set in order to test
 _We encourage you to keep the documentation up to date._
 
 - [ ] Confluence
-- [ ] No, and this is why: _please replace this line with details on why documentation
-  have not been written_
+- [ ] No, and this is why: _please replace this line with details on why documentation have not been written_
 - [ ] I need help with writing documentation
 
 ## Added/updated tests?
