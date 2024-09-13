@@ -1,3 +1,7 @@
+[![codecov](https://codecov.io/gh/Dec0dex/dcp-mobile/graph/badge.svg?token=ONFZSM7OOQ)](https://codecov.io/gh/Dec0dex/dcp-mobile)
+[![CI](https://github.com/Dec0dex/dcp-mobile/actions/workflows/ci.yml/badge.svg)](https://github.com/Dec0dex/dcp-mobile/actions/workflows/ci.yml)
+[![Latest Release](https://img.shields.io/github/release/Dec0dex/dcp-mobile.svg)](https://github.com/Dec0dex/dcp-mobile/releases)
+
 This is a Kotlin Multiplatform project targeting Android, iOS.
 
 * `/composeApp` is for code that will be shared across your Compose Multiplatform applications.
