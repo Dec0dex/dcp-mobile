@@ -3,4 +3,4 @@
 # createAuthHttpClient
 
 [common]\
-fun [createAuthHttpClient](create-auth-http-client.md)(engine: HttpClientEngine, preferences: [DataStore](https://developer.android.com/reference/kotlin/androidx/datastore/core/DataStore.html)&lt;[Preferences](https://developer.android.com/reference/kotlin/androidx/datastore/preferences/core/Preferences.html)&gt;): [AuthHttpClient](-auth-http-client/index.md)
+fun [createAuthHttpClient](create-auth-http-client.md)(superTokensClient: [SuperTokensClient](../net.decodex.dcp.core.supertokens/-super-tokens-client/index.md)): [AuthHttpClient](-auth-http-client/index.md)

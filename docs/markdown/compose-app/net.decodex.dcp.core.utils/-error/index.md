@@ -9,3 +9,4 @@ interface [Error](index.md)
 | |
 |---|
 | [NetworkError](../-network-error/index.md) |
+| [SuperTokensStatusException](../../net.decodex.dcp.core.supertokens.common/-super-tokens-status-exception/index.md) |

@@ -20,6 +20,7 @@ navigationCompose = "2.8.0-alpha02"
 ktor = "2.3.12"
 datastore = "1.1.1"
 datetime = "0.6.0"
+okhttp = "4.12.0"
 room = "2.7.0-alpha01"
 ksp = "2.0.20-1.0.24"
 sqlite = "2.5.0-SNAPSHOT"
@@ -55,6 +56,7 @@ koin-compose-viewmodel = { module = "io.insert-koin:koin-compose-viewmodel", ver
 navigation-compose = { module = "org.jetbrains.androidx.navigation:navigation-compose", version.ref = "navigationCompose" }
 
 ktor-client-core = { module = "io.ktor:ktor-client-core", version.ref = "ktor" }
+ktor-client-cio = { module = "io.ktor:ktor-client-cio", version.ref = "ktor" }
 ktor-client-okhttp = { module = "io.ktor:ktor-client-okhttp", version.ref = "ktor" }
 ktor-client-darwin = { module = "io.ktor:ktor-client-darwin", version.ref = "ktor" }
 ktor-client-content-negotiation = { module = "io.ktor:ktor-client-content-negotiation", version.ref = "ktor" }
@@ -65,6 +67,7 @@ ktor-serialization-kotlinx-json = { module = "io.ktor:ktor-serialization-kotlinx
 datastore = { module = "androidx.datastore:datastore", version.ref = "datastore" }
 datastore-preferences = { module = "androidx.datastore:datastore-preferences", version.ref = "datastore" }
 
+okhttp = { module = "com.squareup.okhttp3:okhttp", version.ref = "okhttp" }
 room-runtime = { module = "androidx.room:room-runtime", version.ref = "room" }
 room-runtime-android = { module = "androidx.room:room-runtime-android", version.ref = "room" }
 room-compiler = { module = "androidx.room:room-compiler", version.ref = "room" }
@@ -97,4 +100,5 @@ ktor = [
     "ktor-client-auth",
     "ktor-client-logging",
     "ktor-serialization-kotlinx-json",
+    "ktor-client-cio"
 ]

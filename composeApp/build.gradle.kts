@@ -50,6 +50,7 @@ kotlin {
             implementation(libs.koin.androidx.compose)
 
             implementation(libs.ktor.client.okhttp)
+            implementation(libs.okhttp)
         }
         nativeMain.dependencies {
             implementation(libs.ktor.client.darwin)
@@ -78,6 +79,9 @@ kotlin {
 
             api(libs.datastore)
             api(libs.datastore.preferences)
+
+            implementation(kotlincrypto.hash.sha2)
+            implementation(kotlincrypto.secureRandom)
         }
         commonTest.dependencies {
             implementation(libs.kotlin.test)
@@ -193,8 +197,8 @@ ktlint {
     filter {
         exclude { entry ->
             entry.file.toString().contains("generated") ||
-            entry.file.name.contains("MainViewController") ||
-            entry.file.extension.contains("kts")
+                entry.file.name.contains("MainViewController") ||
+                entry.file.extension.contains("kts")
         }
     }
 }

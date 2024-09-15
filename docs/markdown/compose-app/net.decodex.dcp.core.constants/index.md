@@ -6,5 +6,7 @@
 
 | Name | Summary |
 |---|---|
+| [ApiRoutes](-api-routes/index.md) | [common]<br>object [ApiRoutes](-api-routes/index.md) |
 | [AppConfig](-app-config/index.md) | [common]<br>object [AppConfig](-app-config/index.md) |
+| [NavRoutes](-nav-routes/index.md) | [common]<br>object [NavRoutes](-nav-routes/index.md) |
 | [PreferenceKey](-preference-key/index.md) | [common]<br>object [PreferenceKey](-preference-key/index.md) |

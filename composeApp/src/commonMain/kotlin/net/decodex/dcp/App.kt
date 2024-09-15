@@ -1,11 +1,17 @@
 package net.decodex.dcp
 
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Surface
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.getValue
+import androidx.compose.ui.Modifier
 import net.decodex.dcp.core.presentation.AppTheme
-import org.jetbrains.compose.ui.tooling.preview.Preview
+import org.koin.compose.KoinContext
+import org.koin.core.annotation.KoinExperimentalAPI
 
+@OptIn(KoinExperimentalAPI::class)
 @Composable
-@Preview
 fun App(
     darkTheme: Boolean,
     dynamicColor: Boolean,
@@ -14,5 +20,13 @@ fun App(
         darkTheme = darkTheme,
         dynamicColor = dynamicColor,
     ) {
+        KoinContext {
+            Surface(
+                modifier = Modifier.fillMaxSize(),
+                color = MaterialTheme.colorScheme.background,
+            ) {
+                AnimatedNavHost()
+            }
+        }
     }
 }

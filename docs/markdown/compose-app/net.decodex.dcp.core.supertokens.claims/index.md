@@ -1,0 +1,10 @@
+//[composeApp](../../index.md)/[net.decodex.dcp.core.supertokens.claims](index.md)
+
+# Package-level declarations
+
+## Types
+
+| Name | Summary |
+|---|---|
+| [AccessTokenClaims](-access-token-claims/index.md) | [common]<br>@Serializable<br>data class [AccessTokenClaims](-access-token-claims/index.md)(val expiresAt: [Long](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html), val issuedAt: [Long](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html), val sub: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html), val issuer: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html), val audience: [List](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)&lt;[String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)&gt;? = null, val email: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)? = null, val emailVerified: [Boolean](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html)? = null, val phoneNumber: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)? = null, val roles: [List](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)&lt;[String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)&gt;? = null, val permissions: [List](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)&lt;[String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)&gt;? = null, val multiFactor: [ClaimMFA](-claim-m-f-a/index.md)? = null) |
+| [ClaimMFA](-claim-m-f-a/index.md) | [common]<br>@Serializable<br>data class [ClaimMFA](-claim-m-f-a/index.md)(val factors: [Map](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-map/index.html)&lt;[String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html), [Long](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html)&gt;, val verified: [Boolean](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html)) |

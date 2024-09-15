@@ -1,0 +1,9 @@
+//[composeApp](../../index.md)/[net.decodex.dcp.ui.components](index.md)/[GitLabLoginButton](-git-lab-login-button.md)
+
+# GitLabLoginButton
+
+[common]\
+
+@[Composable](https://developer.android.com/reference/kotlin/androidx/compose/runtime/Composable.html)
+
+fun [GitLabLoginButton](-git-lab-login-button.md)(onClick: () -&gt; [Unit](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html))

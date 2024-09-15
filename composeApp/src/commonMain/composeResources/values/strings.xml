@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="or">OR</string>
+    <string name="ok">OK</string>
+
+    <!-- LOGIN SCREEN -->
+    <string name="login_title">Log in</string>
+    <string name="login_button_text">Log in</string>
+    <string name="email_label">E-Mail</string>
+    <string name="email_placeholder">Enter your E-Mail</string>
+    <string name="password_label">Password</string>
+    <string name="password_placeholder">Enter your Password</string>
+    <string name="email_is_not_valid">E-Mail is not valid</string>
+    <string name="email_is_required">E-Mail is required field</string>
+    <string name="password_is_not_long_enough">Password should be 8 characters long</string>
+    <string name="password_should_have_mix_of_chars">Password should have at least 1 lowercase, and 1 uppercase</string>
+    <string name="password_should_have_digit">Password should have at least 1 digit</string>
+    <string name="password_should_have_special">Password should have at least 1 special char:  !&quot;#$%&amp;&apos;()*+,-./:;&lt;=&gt;$?@[\]^_`{|}~</string>
+    <string name="sign_in_with">Sign In with %1$s</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="new_here">New here?</string>
+    <string name="sign_up">Sign up</string>
+    <string name="login_error">Login Error</string>
+</resources>

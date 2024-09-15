@@ -9,5 +9,5 @@
 
 | Name | Summary |
 |---|---|
-| [name](index.md#-372974862%2FProperties%2F-676342820) | [common]<br>val [name](index.md#-372974862%2FProperties%2F-676342820): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |
-| [ordinal](index.md#-739389684%2FProperties%2F-676342820) | [common]<br>val [ordinal](index.md#-739389684%2FProperties%2F-676342820): [Int](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html) |
+| [name](../../../net.decodex.dcp.core.supertokens.models/-passwordless-mode/-u-s-e-r_-i-n-p-u-t_-c-o-d-e_-a-n-d_-m-a-g-i-c_-l-i-n-k/index.md#-372974862%2FProperties%2F-676342820) | [common]<br>val [name](../../../net.decodex.dcp.core.supertokens.models/-passwordless-mode/-u-s-e-r_-i-n-p-u-t_-c-o-d-e_-a-n-d_-m-a-g-i-c_-l-i-n-k/index.md#-372974862%2FProperties%2F-676342820): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |
+| [ordinal](../../../net.decodex.dcp.core.supertokens.models/-passwordless-mode/-u-s-e-r_-i-n-p-u-t_-c-o-d-e_-a-n-d_-m-a-g-i-c_-l-i-n-k/index.md#-739389684%2FProperties%2F-676342820) | [common]<br>val [ordinal](../../../net.decodex.dcp.core.supertokens.models/-passwordless-mode/-u-s-e-r_-i-n-p-u-t_-c-o-d-e_-a-n-d_-m-a-g-i-c_-l-i-n-k/index.md#-739389684%2FProperties%2F-676342820): [Int](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html) |
