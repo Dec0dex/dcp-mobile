@@ -206,7 +206,8 @@ ktlint {
         exclude { entry ->
             entry.file.toString().contains("generated") ||
                 entry.file.name.contains("MainViewController") ||
-                entry.file.extension.contains("kts")
+                entry.file.extension.contains("kts") ||
+                entry.file.name.contains("BuildKonfig")
         }
     }
 }
