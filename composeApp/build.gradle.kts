@@ -207,7 +207,7 @@ ktlint {
             entry.file.toString().contains("generated") ||
                 entry.file.name.contains("MainViewController") ||
                 entry.file.extension.contains("kts") ||
-                entry.file.name.contains("BuildKonfig")
+                entry.file.toString().contains("buildkonfig")
         }
     }
 }
