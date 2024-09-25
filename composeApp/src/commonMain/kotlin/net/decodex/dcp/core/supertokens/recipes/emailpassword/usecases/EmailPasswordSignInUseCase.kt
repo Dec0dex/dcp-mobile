@@ -27,13 +27,6 @@ internal class EmailPasswordSignInUseCase(
         email: String,
         password: String,
     ): SuperTokensUser {
-        println(password)
-        try {
-            val result = client.get("https://httpbin.org/delay/10") // This URL delays the response by 10 seconds
-            println(result)
-        } catch (e: Exception) {
-            println("Request timed out or failed: ${e.message}")
-        }
         val response =
             client.post {
                 url {

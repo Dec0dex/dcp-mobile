@@ -4,7 +4,7 @@ import androidx.datastore.core.DataStore
 import androidx.datastore.preferences.core.Preferences
 import androidx.datastore.preferences.core.edit
 import androidx.datastore.preferences.core.stringPreferencesKey
-import kotlinx.coroutines.flow.last
+import kotlinx.coroutines.flow.firstOrNull
 import kotlinx.coroutines.flow.map
 
 class TokensRepositorySettings(
@@ -21,7 +21,7 @@ class TokensRepositorySettings(
     }
 
     override suspend fun getRefreshToken(): String? {
-        return settings.data.map { it[KEY_REFRESH_TOKEN] }.last()
+        return settings.data.map { it[KEY_REFRESH_TOKEN] }.firstOrNull()
     }
 
     override suspend fun setRefreshToken(refreshToken: String?) {

@@ -16,8 +16,6 @@ sealed interface [LoginEvent](index.md)
 | [SignInWithGoogle](-sign-in-with-google/index.md) |
 | [SignInWithFacebook](-sign-in-with-facebook/index.md) |
 | [SignInWithGitHub](-sign-in-with-git-hub/index.md) |
-| [SignInWithGitLab](-sign-in-with-git-lab/index.md) |
-| [SignInWithBitbucket](-sign-in-with-bitbucket/index.md) |
 | [SignInWithApple](-sign-in-with-apple/index.md) |
 | [DismissErrorDialog](-dismiss-error-dialog/index.md) |
 
@@ -32,8 +30,6 @@ sealed interface [LoginEvent](index.md)
 | [OnPasswordChanged](-on-password-changed/index.md) | [common]<br>data class [OnPasswordChanged](-on-password-changed/index.md)(val value: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)) : [LoginEvent](index.md) |
 | [OnRegisterClicked](-on-register-clicked/index.md) | [common]<br>data object [OnRegisterClicked](-on-register-clicked/index.md) : [LoginEvent](index.md) |
 | [SignInWithApple](-sign-in-with-apple/index.md) | [common]<br>data object [SignInWithApple](-sign-in-with-apple/index.md) : [LoginEvent](index.md) |
-| [SignInWithBitbucket](-sign-in-with-bitbucket/index.md) | [common]<br>data object [SignInWithBitbucket](-sign-in-with-bitbucket/index.md) : [LoginEvent](index.md) |
 | [SignInWithFacebook](-sign-in-with-facebook/index.md) | [common]<br>data object [SignInWithFacebook](-sign-in-with-facebook/index.md) : [LoginEvent](index.md) |
 | [SignInWithGitHub](-sign-in-with-git-hub/index.md) | [common]<br>data object [SignInWithGitHub](-sign-in-with-git-hub/index.md) : [LoginEvent](index.md) |
-| [SignInWithGitLab](-sign-in-with-git-lab/index.md) | [common]<br>data object [SignInWithGitLab](-sign-in-with-git-lab/index.md) : [LoginEvent](index.md) |
 | [SignInWithGoogle](-sign-in-with-google/index.md) | [common]<br>data object [SignInWithGoogle](-sign-in-with-google/index.md) : [LoginEvent](index.md) |

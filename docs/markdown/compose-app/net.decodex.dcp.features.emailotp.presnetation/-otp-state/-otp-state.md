@@ -1,0 +1,6 @@
+//[composeApp](../../../index.md)/[net.decodex.dcp.features.emailotp.presnetation](../index.md)/[OtpState](index.md)/[OtpState](-otp-state.md)
+
+# OtpState
+
+[common]\
+constructor(email: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)? = null, phoneNumber: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)? = null, otpSent: [Boolean](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html) = false, inputCode: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)? = null, isLoading: [Boolean](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html) = false, signUpData: [PasswordlessSignUpData](../../net.decodex.dcp.core.supertokens.recipes.passwordless/-passwordless-sign-up-data/index.md)? = null, isErrorVisible: [Boolean](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html) = false, errorMessage: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)? = null, authFactor: [AuthFactor](../../net.decodex.dcp.core.supertokens.models/-auth-factor/index.md) = AuthFactor.OtpEmail, claims: [AccessTokenClaims](../../net.decodex.dcp.core.supertokens.claims/-access-token-claims/index.md)? = null)

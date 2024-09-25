@@ -1,3 +1,5 @@
+import com.android.build.gradle.internal.cxx.configure.gradleLocalProperties
+import com.codingfeline.buildkonfig.compiler.FieldSpec
 import org.jetbrains.compose.ExperimentalComposeLibrary
 import org.jetbrains.kotlin.gradle.ExperimentalKotlinGradlePluginApi
 import org.jetbrains.kotlin.gradle.dsl.JvmTarget
@@ -15,6 +17,7 @@ plugins {
     alias(libs.plugins.spotless)
     alias(libs.plugins.ktlint)
     alias(libs.plugins.dokka)
+    alias(libs.plugins.buildkonfig)
 }
 
 kotlin {
@@ -51,6 +54,7 @@ kotlin {
 
             implementation(libs.ktor.client.okhttp)
             implementation(libs.okhttp)
+            implementation("com.jakewharton.timber:timber:5.0.1")
         }
         nativeMain.dependencies {
             implementation(libs.ktor.client.darwin)
@@ -72,6 +76,8 @@ kotlin {
             implementation(libs.koin.compose.viewmodel)
             implementation(libs.navigation.compose)
 
+            implementation(libs.materii.pullrefresh)
+
             implementation(libs.bundles.ktor)
 
             implementation(libs.room.runtime)
@@ -79,6 +85,8 @@ kotlin {
 
             api(libs.datastore)
             api(libs.datastore.preferences)
+            implementation(libs.launchdarkly)
+            implementation(libs.qrose)
 
             implementation(kotlincrypto.hash.sha2)
             implementation(kotlincrypto.secureRandom)
@@ -107,7 +115,7 @@ android {
         minSdk = libs.versions.android.minSdk.get().toInt()
         targetSdk = libs.versions.android.targetSdk.get().toInt()
         versionCode = 1
-        versionName = "1.0"
+        versionName = "1.0.0"
     }
     packaging {
         resources {
@@ -200,6 +208,60 @@ ktlint {
                 entry.file.name.contains("MainViewController") ||
                 entry.file.extension.contains("kts")
         }
+    }
+}
+
+buildkonfig {
+    packageName = "net.decodex.dcp"
+
+    defaultConfigs {
+        val apiEndpoint = gradleLocalProperties(rootDir).getProperty("API_ENDPOINT")
+        require(apiEndpoint.isNotEmpty()) {
+            "Register your api endpoint and place it in local.properties as `API_ENDPOINT`"
+        }
+        buildConfigField(FieldSpec.Type.STRING, "API_ENDPOINT", apiEndpoint)
+
+        val websiteUrl = gradleLocalProperties(rootDir).getProperty("WEBSITE_URL")
+        require(websiteUrl.isNotEmpty()) {
+            "Register your website url and place it in local.properties as `WEBSITE_URL`"
+        }
+        buildConfigField(FieldSpec.Type.STRING, "WEBSITE_URL", websiteUrl)
+
+        val ldKey = gradleLocalProperties(rootDir).getProperty("LD_KEY")
+        require(apiEndpoint.isNotEmpty()) {
+            "Register your LaunchDarkly Key and place it in local.properties as `LD_KEY`"
+        }
+        buildConfigField(FieldSpec.Type.STRING, "LD_KEY", ldKey)
+        val ldEnvironment = gradleLocalProperties(rootDir).getProperty("LD_ENVIRONMENT")
+        buildConfigField(FieldSpec.Type.STRING, "LD_ENVIRONMENT", ldEnvironment, nullable = true)
+
+        val debug = gradleLocalProperties(rootDir).getProperty("DEBUG", "false")
+        buildConfigField(FieldSpec.Type.BOOLEAN, "DEBUG", debug)
+
+//        val googleClientId = gradleLocalProperties(rootDir).getProperty("AUTH_GOOGLE_CLIENT_ID")
+//        val googleClientSecret = gradleLocalProperties(rootDir).getProperty("AUTH_GOOGLE_CLIENT_SECRET")
+//        buildConfigField(FieldSpec.Type.STRING, "AUTH_GOOGLE_CLIENT_ID", googleClientId, nullable = true)
+//        buildConfigField(FieldSpec.Type.STRING, "AUTH_GOOGLE_CLIENT_SECRET", googleClientSecret, nullable = true)
+//
+//        val facebookClientId = gradleLocalProperties(rootDir).getProperty("AUTH_FACEBOOK_CLIENT_ID")
+//        val facebookClientSecret = gradleLocalProperties(rootDir).getProperty("AUTH_FACEBOOK_CLIENT_SECRET")
+//        buildConfigField(FieldSpec.Type.STRING, "AUTH_FACEBOOK_CLIENT_ID", facebookClientId, nullable = true)
+//        buildConfigField(FieldSpec.Type.STRING, "AUTH_FACEBOOK_CLIENT_SECRET", facebookClientSecret, nullable = true)
+//
+//        val githubleClientId = gradleLocalProperties(rootDir).getProperty("AUTH_GITHUB_CLIENT_ID")
+//        val githubleClientSecret = gradleLocalProperties(rootDir).getProperty("AUTH_GITHUB_CLIENT_SECRET")
+//        buildConfigField(FieldSpec.Type.STRING, "AUTH_GITHUB_CLIENT_ID", githubleClientId, nullable = true)
+//        buildConfigField(FieldSpec.Type.STRING, "AUTH_GITHUB_CLIENT_SECRET", githubleClientSecret, nullable = true)
+//
+//        val appleClientId = gradleLocalProperties(rootDir).getProperty("AUTH_APPLE_CLIENT_ID")
+//        val appleKeyId = gradleLocalProperties(rootDir).getProperty("AUTH_APPLE_KEY_ID")
+//        val applePrivateKey = gradleLocalProperties(rootDir).getProperty("AUTH_APPLE_PRIVATE_KEY")
+//        val appleTeamId = gradleLocalProperties(rootDir).getProperty("AUTH_APPLE_TEAM_ID")
+//        buildConfigField(FieldSpec.Type.STRING, "AUTH_APPLE_CLIENT_ID", appleClientId, nullable = true)
+//        buildConfigField(FieldSpec.Type.STRING, "AUTH_APPLE_KEY_ID", appleKeyId, nullable = true)
+//        buildConfigField(FieldSpec.Type.STRING, "AUTH_APPLE_PRIVATE_KEY", applePrivateKey, nullable = true)
+//        buildConfigField(FieldSpec.Type.STRING, "AUTH_APPLE_TEAM_ID", appleTeamId, nullable = true)
+
     }
 }
 

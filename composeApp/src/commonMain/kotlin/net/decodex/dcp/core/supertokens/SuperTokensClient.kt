@@ -8,6 +8,7 @@ import io.ktor.client.plugins.HttpTimeout
 import io.ktor.client.plugins.contentnegotiation.ContentNegotiation
 import io.ktor.client.plugins.defaultRequest
 import io.ktor.client.plugins.logging.LogLevel
+import io.ktor.client.plugins.logging.Logger
 import io.ktor.client.plugins.logging.Logging
 import io.ktor.client.request.header
 import io.ktor.http.ContentType
@@ -70,6 +71,12 @@ class SuperTokensClientConfig(
         HttpClient(engine) {
             install(Logging) {
                 level = logLevel
+                logger =
+                    object : Logger {
+                        override fun log(message: String) {
+                            println(message) // Use platform-specific logging if needed
+                        }
+                    }
             }
             install(HttpTimeout) {
                 socketTimeoutMillis = API_TIMEOUT
@@ -84,12 +91,6 @@ class SuperTokensClientConfig(
                         ignoreUnknownKeys = true
                     },
                 )
-            }
-
-            defaultRequest {
-                url(apiBaseUrl)
-                contentType(ContentType.Application.Json)
-                header(HttpHeaders.Origin, clientName)
             }
         }
 }

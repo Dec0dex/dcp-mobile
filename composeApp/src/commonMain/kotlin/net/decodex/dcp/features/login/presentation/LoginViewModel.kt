@@ -2,6 +2,9 @@ package net.decodex.dcp.features.login.presentation
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
+import androidx.navigation.NavHostController
+import com.myunidays.launchdarkly.LDClient
+import com.myunidays.launchdarkly.LDContext
 import dcp_mobile.composeapp.generated.resources.Res
 import dcp_mobile.composeapp.generated.resources.email_is_not_valid
 import dcp_mobile.composeapp.generated.resources.email_is_required
@@ -15,16 +18,27 @@ import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
+import kotlinx.coroutines.withContext
+import net.decodex.dcp.core.constants.NavRoutes
 import net.decodex.dcp.core.supertokens.SuperTokensClient
 import net.decodex.dcp.core.supertokens.common.SuperTokensStatusException
 import net.decodex.dcp.core.supertokens.handlers.signInWith
+import net.decodex.dcp.core.supertokens.models.SuperTokensUser
 import net.decodex.dcp.core.supertokens.recipes.emailpassword.EmailPassword
+import net.decodex.dcp.core.supertokens.recipes.thirdparty.providers.Apple
+import net.decodex.dcp.core.supertokens.recipes.thirdparty.providers.Facebook
+import net.decodex.dcp.core.supertokens.recipes.thirdparty.providers.GitHub
+import net.decodex.dcp.core.supertokens.recipes.thirdparty.providers.Google
 import net.decodex.dcp.core.utils.Validators
 import org.jetbrains.compose.resources.StringResource
 
-class LoginViewModel(private val client: SuperTokensClient) : ViewModel() {
+class LoginViewModel(
+    private val client: SuperTokensClient,
+    private val ldClient: LDClient,
+) : ViewModel() {
     private val _state = MutableStateFlow(LoginState())
     val state = _state.asStateFlow()
+    lateinit var navigator: NavHostController
 
     fun onEvent(event: LoginEvent) {
         when (event) {
@@ -47,33 +61,88 @@ class LoginViewModel(private val client: SuperTokensClient) : ViewModel() {
                 }
 
             LoginEvent.DismissErrorDialog -> _state.update { it.copy(isErrorVisible = false) }
-            LoginEvent.OnRegisterClicked -> TODO()
-            LoginEvent.OnForgotPasswordClicked -> TODO()
-            LoginEvent.OnLoginClick -> viewModelScope.launch(Dispatchers.IO) { login() }
-            LoginEvent.SignInWithGoogle -> TODO()
-            LoginEvent.SignInWithFacebook -> TODO()
-            LoginEvent.SignInWithGitHub -> TODO()
-            LoginEvent.SignInWithGitLab -> TODO()
-            LoginEvent.SignInWithBitbucket -> TODO()
-            LoginEvent.SignInWithApple -> TODO()
+            LoginEvent.OnRegisterClicked -> navigateToRegisterScreen()
+            LoginEvent.OnForgotPasswordClicked -> navigateToForgotPasswordScreen()
+
+            LoginEvent.OnLoginClick ->
+                viewModelScope.launch(Dispatchers.IO) {
+                    login { loginWithEmailPasswordAction() }
+                }
+
+            LoginEvent.SignInWithGoogle ->
+                viewModelScope.launch(Dispatchers.IO) {
+                    login { loginWithGoogleAction().user }
+                }
+
+            LoginEvent.SignInWithFacebook ->
+                viewModelScope.launch(Dispatchers.IO) {
+                    login { loginWithFacebookAction().user }
+                }
+
+            LoginEvent.SignInWithGitHub ->
+                viewModelScope.launch(Dispatchers.IO) {
+                    login { loginWithGithubAction().user }
+                }
+
+            LoginEvent.SignInWithApple ->
+                viewModelScope.launch(Dispatchers.IO) {
+                    login { loginWithAppleAction().user }
+                }
         }
     }
 
-    private suspend fun login() {
+    private suspend fun login(action: suspend () -> SuperTokensUser) {
         _state.update { it.copy(isLoading = true) }
         try {
-            client.signInWith(EmailPassword) {
-                email = _state.value.email
-                password = _state.value.password
-            }
+            val user = action()
+            ldClient.identify(LDContext(user.id))
             _state.update { it.copy(isLoading = false) }
-            // TODO: Navigate
+            withContext(Dispatchers.Main) { navigateToHome() }
         } catch (ex: SuperTokensStatusException) {
-            _state.update { it.copy(isErrorVisible = true, apiError = ex, isLoading = false) }
+            _state.update {
+                it.copy(
+                    isErrorVisible = true,
+                    apiError = ex.message,
+                    isLoading = false,
+                )
+            }
         } catch (ex: Exception) {
-            println(ex)
-            _state.update { it.copy(isErrorVisible = true, isLoading = false) }
+            _state.update {
+                it.copy(
+                    isErrorVisible = true,
+                    isLoading = false,
+                    apiError = ex.message,
+                )
+            }
         }
+    }
+
+    private suspend fun loginWithEmailPasswordAction() =
+        client.signInWith(EmailPassword) {
+            email = _state.value.email
+            password = _state.value.password
+        }
+
+    private suspend fun loginWithGoogleAction() = client.signInWith(Google.Tokens) {}
+
+    private suspend fun loginWithGithubAction() = client.signInWith(GitHub.Tokens) {}
+
+    private suspend fun loginWithFacebookAction() = client.signInWith(Facebook.Tokens) {}
+
+    private suspend fun loginWithAppleAction() = client.signInWith(Apple.Tokens) {}
+
+    private fun navigateToHome() {
+        navigator.navigate(NavRoutes.HOME) {
+            popUpTo(NavRoutes.LOGIN) { inclusive = true }
+        }
+    }
+
+    private fun navigateToRegisterScreen() {
+        navigator.navigate(NavRoutes.REGISTER)
+    }
+
+    private fun navigateToForgotPasswordScreen() {
+        navigator.navigate(NavRoutes.FORGOT_PASSWORD)
     }
 
     private fun validateInputs(

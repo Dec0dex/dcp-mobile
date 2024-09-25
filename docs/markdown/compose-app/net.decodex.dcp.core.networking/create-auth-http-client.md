@@ -3,4 +3,4 @@
 # createAuthHttpClient
 
 [common]\
-fun [createAuthHttpClient](create-auth-http-client.md)(superTokensClient: [SuperTokensClient](../net.decodex.dcp.core.supertokens/-super-tokens-client/index.md)): [AuthHttpClient](-auth-http-client/index.md)
+fun [createAuthHttpClient](create-auth-http-client.md)(superTokensClient: [SuperTokensClient](../net.decodex.dcp.core.supertokens/-super-tokens-client/index.md)): HttpClient

@@ -6,7 +6,7 @@ import androidx.datastore.preferences.core.edit
 import androidx.datastore.preferences.core.stringPreferencesKey
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.flow.MutableStateFlow
-import kotlinx.coroutines.flow.last
+import kotlinx.coroutines.flow.firstOrNull
 import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.launch
 import kotlinx.serialization.ExperimentalSerializationApi
@@ -48,9 +48,11 @@ class ClaimsRepositorySettings(
 
     override suspend fun getClaims(): AccessTokenClaims? {
         return settings.data.map {
-            val value = it[KEY_USER_CLAIMS].orEmpty()
-            decoder.decodeFromString<AccessTokenClaims>(value)
-        }.last()
+            val value = it[KEY_USER_CLAIMS]
+            value?.let {
+                decoder.decodeFromString<AccessTokenClaims>(value)
+            }
+        }.firstOrNull()
     }
 
     companion object {

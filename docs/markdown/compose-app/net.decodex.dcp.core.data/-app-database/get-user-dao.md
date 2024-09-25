@@ -3,4 +3,4 @@
 # getUserDao
 
 [common]\
-abstract fun [getUserDao](get-user-dao.md)(): [UserDao](../../net.decodex.dcp.user.domain.dao/-user-dao/index.md)
+abstract fun [getUserDao](get-user-dao.md)(): [UserDao](../../net.decodex.dcp.features.user.domain.dao/-user-dao/index.md)

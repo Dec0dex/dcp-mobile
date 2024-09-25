@@ -8,6 +8,7 @@
 |---|---|
 | [daoModule](dao-module.md) | [common]<br>val [daoModule](dao-module.md): Module |
 | [dataSourceModule](data-source-module.md) | [common]<br>val [dataSourceModule](data-source-module.md): Module |
+| [libsModule](libs-module.md) | [common]<br>val [libsModule](libs-module.md): Module |
 | [networkModule](network-module.md) | [common]<br>val [networkModule](network-module.md): Module |
 | [platformModule](platform-module.md) | [common, android, ios]<br>[common]<br>expect val [platformModule](platform-module.md): Module<br>[android, ios]<br>actual val [platformModule](platform-module.md): Module |
 | [repositoryModule](repository-module.md) | [common]<br>val [repositoryModule](repository-module.md): Module |

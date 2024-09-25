@@ -1,5 +1,7 @@
 package net.decodex.dcp.core.constants
 
+import net.decodex.dcp.BuildKonfig
+
 object ApiRoutes {
-    const val AUTH = AppConfig.API_ENDPOINT + "/auth"
+    val AUTH = "${BuildKonfig.API_ENDPOINT}/auth"
 }

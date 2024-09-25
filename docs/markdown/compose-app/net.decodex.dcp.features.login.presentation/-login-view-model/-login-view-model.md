@@ -3,4 +3,4 @@
 # LoginViewModel
 
 [common]\
-constructor(client: [SuperTokensClient](../../net.decodex.dcp.core.supertokens/-super-tokens-client/index.md))
+constructor(client: [SuperTokensClient](../../net.decodex.dcp.core.supertokens/-super-tokens-client/index.md), ldClient: LDClient)

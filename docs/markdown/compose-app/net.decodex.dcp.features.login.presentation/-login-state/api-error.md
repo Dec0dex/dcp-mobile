@@ -3,4 +3,4 @@
 # apiError
 
 [common]\
-val [apiError](api-error.md): [SuperTokensStatusException](../../net.decodex.dcp.core.supertokens.common/-super-tokens-status-exception/index.md)? = null
+val [apiError](api-error.md): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)? = null

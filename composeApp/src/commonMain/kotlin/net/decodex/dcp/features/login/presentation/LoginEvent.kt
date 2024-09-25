@@ -17,10 +17,6 @@ sealed interface LoginEvent {
 
     data object SignInWithGitHub : LoginEvent
 
-    data object SignInWithGitLab : LoginEvent
-
-    data object SignInWithBitbucket : LoginEvent
-
     data object SignInWithApple : LoginEvent
 
     data object DismissErrorDialog : LoginEvent

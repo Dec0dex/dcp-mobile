@@ -3,4 +3,4 @@
 # AUTH
 
 [common]\
-const val [AUTH](-a-u-t-h.md): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)
+val [AUTH](-a-u-t-h.md): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)

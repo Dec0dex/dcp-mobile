@@ -18,16 +18,20 @@ $dokka.location:net.decodex.dcp.core.constants////PointingToDeclaration/compose
 $dokka.location:net.decodex.dcp.core.constants/ApiRoutes///PointingToDeclaration/compose-app/net.decodex.dcp.core.constants/-api-routes/index.md
 $dokka.location:net.decodex.dcp.core.constants/ApiRoutes/AUTH/#/PointingToDeclaration/compose-app/net.decodex.dcp.core.constants/-api-routes/-a-u-t-h.md
 $dokka.location:net.decodex.dcp.core.constants/AppConfig///PointingToDeclaration/compose-app/net.decodex.dcp.core.constants/-app-config/index.md
-$dokka.location:net.decodex.dcp.core.constants/AppConfig/API_ENDPOINT/#/PointingToDeclaration/compose-app/net.decodex.dcp.core.constants/-app-config/-a-p-i_-e-n-d-p-o-i-n-t.md
 $dokka.location:net.decodex.dcp.core.constants/AppConfig/API_TIMEOUT/#/PointingToDeclaration/compose-app/net.decodex.dcp.core.constants/-app-config/-a-p-i_-t-i-m-e-o-u-t.md
 $dokka.location:net.decodex.dcp.core.constants/AppConfig/logLevel/#/PointingToDeclaration/compose-app/net.decodex.dcp.core.constants/-app-config/log-level.md
+$dokka.location:net.decodex.dcp.core.constants/FeatureFlags///PointingToDeclaration/compose-app/net.decodex.dcp.core.constants/-feature-flags/index.md
+$dokka.location:net.decodex.dcp.core.constants/FeatureFlags/SUPER_TOKENS/#/PointingToDeclaration/compose-app/net.decodex.dcp.core.constants/-feature-flags/-s-u-p-e-r_-t-o-k-e-n-s.md
 $dokka.location:net.decodex.dcp.core.constants/NavRoutes///PointingToDeclaration/compose-app/net.decodex.dcp.core.constants/-nav-routes/index.md
 $dokka.location:net.decodex.dcp.core.constants/NavRoutes/AUTH/#/PointingToDeclaration/compose-app/net.decodex.dcp.core.constants/-nav-routes/-a-u-t-h.md
+$dokka.location:net.decodex.dcp.core.constants/NavRoutes/EMAIL_OTP/#/PointingToDeclaration/compose-app/net.decodex.dcp.core.constants/-nav-routes/-e-m-a-i-l_-o-t-p.md
 $dokka.location:net.decodex.dcp.core.constants/NavRoutes/FORGOT_PASSWORD/#/PointingToDeclaration/compose-app/net.decodex.dcp.core.constants/-nav-routes/-f-o-r-g-o-t_-p-a-s-s-w-o-r-d.md
 $dokka.location:net.decodex.dcp.core.constants/NavRoutes/HOME/#/PointingToDeclaration/compose-app/net.decodex.dcp.core.constants/-nav-routes/-h-o-m-e.md
 $dokka.location:net.decodex.dcp.core.constants/NavRoutes/LOGIN/#/PointingToDeclaration/compose-app/net.decodex.dcp.core.constants/-nav-routes/-l-o-g-i-n.md
 $dokka.location:net.decodex.dcp.core.constants/NavRoutes/MFA/#/PointingToDeclaration/compose-app/net.decodex.dcp.core.constants/-nav-routes/-m-f-a.md
+$dokka.location:net.decodex.dcp.core.constants/NavRoutes/PHONE_OTP/#/PointingToDeclaration/compose-app/net.decodex.dcp.core.constants/-nav-routes/-p-h-o-n-e_-o-t-p.md
 $dokka.location:net.decodex.dcp.core.constants/NavRoutes/REGISTER/#/PointingToDeclaration/compose-app/net.decodex.dcp.core.constants/-nav-routes/-r-e-g-i-s-t-e-r.md
+$dokka.location:net.decodex.dcp.core.constants/NavRoutes/TOTP/#/PointingToDeclaration/compose-app/net.decodex.dcp.core.constants/-nav-routes/-t-o-t-p.md
 $dokka.location:net.decodex.dcp.core.constants/PreferenceKey///PointingToDeclaration/compose-app/net.decodex.dcp.core.constants/-preference-key/index.md
 $dokka.location:net.decodex.dcp.core.constants/PreferenceKey/accessToken/#/PointingToDeclaration/compose-app/net.decodex.dcp.core.constants/-preference-key/access-token.md
 $dokka.location:net.decodex.dcp.core.constants/PreferenceKey/refreshToken/#/PointingToDeclaration/compose-app/net.decodex.dcp.core.constants/-preference-key/refresh-token.md
@@ -43,12 +47,12 @@ $dokka.location:net.decodex.dcp.core.data/AppDatabase/clearAllTables/#/PointingT
 $dokka.location:net.decodex.dcp.core.data/AppDatabase/getUserDao/#/PointingToDeclaration/compose-app/net.decodex.dcp.core.data/-app-database/get-user-dao.md
 $dokka.location:net.decodex.dcp.core.data/DB///PointingToDeclaration/compose-app/net.decodex.dcp.core.data/-d-b/index.md
 $dokka.location:net.decodex.dcp.core.data/DB/clearAllTables/#/PointingToDeclaration/compose-app/net.decodex.dcp.core.data/-d-b/clear-all-tables.md
+$dokka.location:net.decodex.dcp.core.launchdarkly////PointingToDeclaration/compose-app/net.decodex.dcp.core.launchdarkly/index.md
+$dokka.location:net.decodex.dcp.core.launchdarkly//createLDClient/#/PointingToDeclaration/compose-app/net.decodex.dcp.core.launchdarkly/create-l-d-client.md
 $dokka.location:net.decodex.dcp.core.networking////PointingToDeclaration/compose-app/net.decodex.dcp.core.networking/index.md
 $dokka.location:net.decodex.dcp.core.networking//createAuthHttpClient/#net.decodex.dcp.core.supertokens.SuperTokensClient/PointingToDeclaration/compose-app/net.decodex.dcp.core.networking/create-auth-http-client.md
-$dokka.location:net.decodex.dcp.core.networking//createHttpClient/#io.ktor.client.engine.HttpClientEngine#kotlin.Function1[io.ktor.client.HttpClientConfig[*],kotlin.Unit]/PointingToDeclaration/compose-app/net.decodex.dcp.core.networking/create-http-client.md
+$dokka.location:net.decodex.dcp.core.networking//createHttpClient/#io.ktor.client.engine.HttpClientEngine/PointingToDeclaration/compose-app/net.decodex.dcp.core.networking/create-http-client.md
 $dokka.location:net.decodex.dcp.core.networking//createSuperTokensClient/#io.ktor.client.engine.HttpClientEngine#androidx.datastore.core.DataStore[androidx.datastore.preferences.core.Preferences]/PointingToDeclaration/compose-app/net.decodex.dcp.core.networking/create-super-tokens-client.md
-$dokka.location:net.decodex.dcp.core.networking/AuthHttpClient///PointingToDeclaration/compose-app/net.decodex.dcp.core.networking/-auth-http-client/index.md
-$dokka.location:net.decodex.dcp.core.networking/NoAuthHttpClient///PointingToDeclaration/compose-app/net.decodex.dcp.core.networking/-no-auth-http-client/index.md
 $dokka.location:net.decodex.dcp.core.presentation////PointingToDeclaration/compose-app/net.decodex.dcp.core.presentation/index.md
 $dokka.location:net.decodex.dcp.core.presentation//AppTheme/#kotlin.Boolean#kotlin.Boolean#kotlin.Function0[kotlin.Unit]/PointingToDeclaration/compose-app/net.decodex.dcp.core.presentation/-app-theme.md
 $dokka.location:net.decodex.dcp.core.supertokens.claims////PointingToDeclaration/compose-app/net.decodex.dcp.core.supertokens.claims/index.md
@@ -819,10 +823,72 @@ $dokka.location:net.decodex.dcp.di////PointingToDeclaration/compose-app/net.dec
 $dokka.location:net.decodex.dcp.di//daoModule/#/PointingToDeclaration/compose-app/net.decodex.dcp.di/dao-module.md
 $dokka.location:net.decodex.dcp.di//dataSourceModule/#/PointingToDeclaration/compose-app/net.decodex.dcp.di/data-source-module.md
 $dokka.location:net.decodex.dcp.di//initKoin/#kotlin.Function1[org.koin.core.KoinApplication,kotlin.Unit]?/PointingToDeclaration/compose-app/net.decodex.dcp.di/init-koin.md
+$dokka.location:net.decodex.dcp.di//libsModule/#/PointingToDeclaration/compose-app/net.decodex.dcp.di/libs-module.md
 $dokka.location:net.decodex.dcp.di//networkModule/#/PointingToDeclaration/compose-app/net.decodex.dcp.di/network-module.md
 $dokka.location:net.decodex.dcp.di//platformModule/#/PointingToDeclaration/compose-app/net.decodex.dcp.di/platform-module.md
 $dokka.location:net.decodex.dcp.di//repositoryModule/#/PointingToDeclaration/compose-app/net.decodex.dcp.di/repository-module.md
 $dokka.location:net.decodex.dcp.di//viewModelsModule/#/PointingToDeclaration/compose-app/net.decodex.dcp.di/view-models-module.md
+$dokka.location:net.decodex.dcp.features.auth.presentation////PointingToDeclaration/compose-app/net.decodex.dcp.features.auth.presentation/index.md
+$dokka.location:net.decodex.dcp.features.auth.presentation//AuthScreen/#net.decodex.dcp.features.auth.presentation.AuthState/PointingToDeclaration/compose-app/net.decodex.dcp.features.auth.presentation/-auth-screen.md
+$dokka.location:net.decodex.dcp.features.auth.presentation/AuthState///PointingToDeclaration/compose-app/net.decodex.dcp.features.auth.presentation/-auth-state/index.md
+$dokka.location:net.decodex.dcp.features.auth.presentation/AuthState/AuthState/#kotlin.Boolean/PointingToDeclaration/compose-app/net.decodex.dcp.features.auth.presentation/-auth-state/-auth-state.md
+$dokka.location:net.decodex.dcp.features.auth.presentation/AuthState/isLoading/#/PointingToDeclaration/compose-app/net.decodex.dcp.features.auth.presentation/-auth-state/is-loading.md
+$dokka.location:net.decodex.dcp.features.auth.presentation/AuthViewModel///PointingToDeclaration/compose-app/net.decodex.dcp.features.auth.presentation/-auth-view-model/index.md
+$dokka.location:net.decodex.dcp.features.auth.presentation/AuthViewModel/AuthViewModel/#net.decodex.dcp.core.supertokens.SuperTokensClient/PointingToDeclaration/compose-app/net.decodex.dcp.features.auth.presentation/-auth-view-model/-auth-view-model.md
+$dokka.location:net.decodex.dcp.features.auth.presentation/AuthViewModel/authorizeUser/#/PointingToDeclaration/compose-app/net.decodex.dcp.features.auth.presentation/-auth-view-model/authorize-user.md
+$dokka.location:net.decodex.dcp.features.auth.presentation/AuthViewModel/navigator/#/PointingToDeclaration/compose-app/net.decodex.dcp.features.auth.presentation/-auth-view-model/navigator.md
+$dokka.location:net.decodex.dcp.features.auth.presentation/AuthViewModel/state/#/PointingToDeclaration/compose-app/net.decodex.dcp.features.auth.presentation/-auth-view-model/state.md
+$dokka.location:net.decodex.dcp.features.emailotp.presnetation////PointingToDeclaration/compose-app/net.decodex.dcp.features.emailotp.presnetation/index.md
+$dokka.location:net.decodex.dcp.features.emailotp.presnetation//OtpContent/#androidx.compose.ui.Modifier#net.decodex.dcp.features.emailotp.presnetation.OtpState#kotlin.Function1[net.decodex.dcp.features.emailotp.presnetation.OtpEvent,kotlin.Unit]/PointingToDeclaration/compose-app/net.decodex.dcp.features.emailotp.presnetation/-otp-content.md
+$dokka.location:net.decodex.dcp.features.emailotp.presnetation//OtpScreen/#androidx.navigation.NavController#net.decodex.dcp.features.emailotp.presnetation.OtpState#kotlin.Function1[net.decodex.dcp.features.emailotp.presnetation.OtpEvent,kotlin.Unit]/PointingToDeclaration/compose-app/net.decodex.dcp.features.emailotp.presnetation/-otp-screen.md
+$dokka.location:net.decodex.dcp.features.emailotp.presnetation/OtpEvent.ConfirmCode///PointingToDeclaration/compose-app/net.decodex.dcp.features.emailotp.presnetation/-otp-event/-confirm-code/index.md
+$dokka.location:net.decodex.dcp.features.emailotp.presnetation/OtpEvent.DismissErrorDialog///PointingToDeclaration/compose-app/net.decodex.dcp.features.emailotp.presnetation/-otp-event/-dismiss-error-dialog/index.md
+$dokka.location:net.decodex.dcp.features.emailotp.presnetation/OtpEvent.GoBack///PointingToDeclaration/compose-app/net.decodex.dcp.features.emailotp.presnetation/-otp-event/-go-back/index.md
+$dokka.location:net.decodex.dcp.features.emailotp.presnetation/OtpEvent.OnCodeInput///PointingToDeclaration/compose-app/net.decodex.dcp.features.emailotp.presnetation/-otp-event/-on-code-input/index.md
+$dokka.location:net.decodex.dcp.features.emailotp.presnetation/OtpEvent.OnCodeInput/OnCodeInput/#kotlin.String/PointingToDeclaration/compose-app/net.decodex.dcp.features.emailotp.presnetation/-otp-event/-on-code-input/-on-code-input.md
+$dokka.location:net.decodex.dcp.features.emailotp.presnetation/OtpEvent.OnCodeInput/code/#/PointingToDeclaration/compose-app/net.decodex.dcp.features.emailotp.presnetation/-otp-event/-on-code-input/code.md
+$dokka.location:net.decodex.dcp.features.emailotp.presnetation/OtpEvent.SendOtp///PointingToDeclaration/compose-app/net.decodex.dcp.features.emailotp.presnetation/-otp-event/-send-otp/index.md
+$dokka.location:net.decodex.dcp.features.emailotp.presnetation/OtpEvent///PointingToDeclaration/compose-app/net.decodex.dcp.features.emailotp.presnetation/-otp-event/index.md
+$dokka.location:net.decodex.dcp.features.emailotp.presnetation/OtpState///PointingToDeclaration/compose-app/net.decodex.dcp.features.emailotp.presnetation/-otp-state/index.md
+$dokka.location:net.decodex.dcp.features.emailotp.presnetation/OtpState/OtpState/#kotlin.String?#kotlin.String?#kotlin.Boolean#kotlin.String?#kotlin.Boolean#net.decodex.dcp.core.supertokens.recipes.passwordless.PasswordlessSignUpData?#kotlin.Boolean#kotlin.String?#net.decodex.dcp.core.supertokens.models.AuthFactor#net.decodex.dcp.core.supertokens.claims.AccessTokenClaims?/PointingToDeclaration/compose-app/net.decodex.dcp.features.emailotp.presnetation/-otp-state/-otp-state.md
+$dokka.location:net.decodex.dcp.features.emailotp.presnetation/OtpState/authFactor/#/PointingToDeclaration/compose-app/net.decodex.dcp.features.emailotp.presnetation/-otp-state/auth-factor.md
+$dokka.location:net.decodex.dcp.features.emailotp.presnetation/OtpState/claims/#/PointingToDeclaration/compose-app/net.decodex.dcp.features.emailotp.presnetation/-otp-state/claims.md
+$dokka.location:net.decodex.dcp.features.emailotp.presnetation/OtpState/email/#/PointingToDeclaration/compose-app/net.decodex.dcp.features.emailotp.presnetation/-otp-state/email.md
+$dokka.location:net.decodex.dcp.features.emailotp.presnetation/OtpState/errorMessage/#/PointingToDeclaration/compose-app/net.decodex.dcp.features.emailotp.presnetation/-otp-state/error-message.md
+$dokka.location:net.decodex.dcp.features.emailotp.presnetation/OtpState/inputCode/#/PointingToDeclaration/compose-app/net.decodex.dcp.features.emailotp.presnetation/-otp-state/input-code.md
+$dokka.location:net.decodex.dcp.features.emailotp.presnetation/OtpState/isErrorVisible/#/PointingToDeclaration/compose-app/net.decodex.dcp.features.emailotp.presnetation/-otp-state/is-error-visible.md
+$dokka.location:net.decodex.dcp.features.emailotp.presnetation/OtpState/isLoading/#/PointingToDeclaration/compose-app/net.decodex.dcp.features.emailotp.presnetation/-otp-state/is-loading.md
+$dokka.location:net.decodex.dcp.features.emailotp.presnetation/OtpState/otpSent/#/PointingToDeclaration/compose-app/net.decodex.dcp.features.emailotp.presnetation/-otp-state/otp-sent.md
+$dokka.location:net.decodex.dcp.features.emailotp.presnetation/OtpState/phoneNumber/#/PointingToDeclaration/compose-app/net.decodex.dcp.features.emailotp.presnetation/-otp-state/phone-number.md
+$dokka.location:net.decodex.dcp.features.emailotp.presnetation/OtpState/signUpData/#/PointingToDeclaration/compose-app/net.decodex.dcp.features.emailotp.presnetation/-otp-state/sign-up-data.md
+$dokka.location:net.decodex.dcp.features.emailotp.presnetation/OtpViewModel///PointingToDeclaration/compose-app/net.decodex.dcp.features.emailotp.presnetation/-otp-view-model/index.md
+$dokka.location:net.decodex.dcp.features.emailotp.presnetation/OtpViewModel/OtpViewModel/#net.decodex.dcp.core.supertokens.SuperTokensClient#com.myunidays.launchdarkly.LDClient/PointingToDeclaration/compose-app/net.decodex.dcp.features.emailotp.presnetation/-otp-view-model/-otp-view-model.md
+$dokka.location:net.decodex.dcp.features.emailotp.presnetation/OtpViewModel/init/#net.decodex.dcp.core.supertokens.models.AuthFactor#androidx.navigation.NavHostController/PointingToDeclaration/compose-app/net.decodex.dcp.features.emailotp.presnetation/-otp-view-model/init.md
+$dokka.location:net.decodex.dcp.features.emailotp.presnetation/OtpViewModel/onEvent/#net.decodex.dcp.features.emailotp.presnetation.OtpEvent/PointingToDeclaration/compose-app/net.decodex.dcp.features.emailotp.presnetation/-otp-view-model/on-event.md
+$dokka.location:net.decodex.dcp.features.emailotp.presnetation/OtpViewModel/state/#/PointingToDeclaration/compose-app/net.decodex.dcp.features.emailotp.presnetation/-otp-view-model/state.md
+$dokka.location:net.decodex.dcp.features.forgotpassword.presentation////PointingToDeclaration/compose-app/net.decodex.dcp.features.forgotpassword.presentation/index.md
+$dokka.location:net.decodex.dcp.features.forgotpassword.presentation//ForgotPasswordContent/#net.decodex.dcp.features.forgotpassword.presentation.ForgotPasswordState#kotlin.Function1[net.decodex.dcp.features.forgotpassword.presentation.ForgotPasswordEvent,kotlin.Unit]/PointingToDeclaration/compose-app/net.decodex.dcp.features.forgotpassword.presentation/-forgot-password-content.md
+$dokka.location:net.decodex.dcp.features.forgotpassword.presentation//ForgotPasswordScreen/#androidx.navigation.NavHostController#net.decodex.dcp.features.forgotpassword.presentation.ForgotPasswordState#kotlin.Function1[net.decodex.dcp.features.forgotpassword.presentation.ForgotPasswordEvent,kotlin.Unit]/PointingToDeclaration/compose-app/net.decodex.dcp.features.forgotpassword.presentation/-forgot-password-screen.md
+$dokka.location:net.decodex.dcp.features.forgotpassword.presentation/ForgotPasswordEvent.GoBack///PointingToDeclaration/compose-app/net.decodex.dcp.features.forgotpassword.presentation/-forgot-password-event/-go-back/index.md
+$dokka.location:net.decodex.dcp.features.forgotpassword.presentation/ForgotPasswordEvent.OnEmailChange///PointingToDeclaration/compose-app/net.decodex.dcp.features.forgotpassword.presentation/-forgot-password-event/-on-email-change/index.md
+$dokka.location:net.decodex.dcp.features.forgotpassword.presentation/ForgotPasswordEvent.OnEmailChange/OnEmailChange/#kotlin.String/PointingToDeclaration/compose-app/net.decodex.dcp.features.forgotpassword.presentation/-forgot-password-event/-on-email-change/-on-email-change.md
+$dokka.location:net.decodex.dcp.features.forgotpassword.presentation/ForgotPasswordEvent.OnEmailChange/value/#/PointingToDeclaration/compose-app/net.decodex.dcp.features.forgotpassword.presentation/-forgot-password-event/-on-email-change/value.md
+$dokka.location:net.decodex.dcp.features.forgotpassword.presentation/ForgotPasswordEvent.SendEmail///PointingToDeclaration/compose-app/net.decodex.dcp.features.forgotpassword.presentation/-forgot-password-event/-send-email/index.md
+$dokka.location:net.decodex.dcp.features.forgotpassword.presentation/ForgotPasswordEvent///PointingToDeclaration/compose-app/net.decodex.dcp.features.forgotpassword.presentation/-forgot-password-event/index.md
+$dokka.location:net.decodex.dcp.features.forgotpassword.presentation/ForgotPasswordState///PointingToDeclaration/compose-app/net.decodex.dcp.features.forgotpassword.presentation/-forgot-password-state/index.md
+$dokka.location:net.decodex.dcp.features.forgotpassword.presentation/ForgotPasswordState/ForgotPasswordState/#kotlin.String#org.jetbrains.compose.resources.StringResource?#kotlin.Boolean#kotlin.Boolean#kotlin.Boolean#kotlin.Boolean#kotlin.String?/PointingToDeclaration/compose-app/net.decodex.dcp.features.forgotpassword.presentation/-forgot-password-state/-forgot-password-state.md
+$dokka.location:net.decodex.dcp.features.forgotpassword.presentation/ForgotPasswordState/email/#/PointingToDeclaration/compose-app/net.decodex.dcp.features.forgotpassword.presentation/-forgot-password-state/email.md
+$dokka.location:net.decodex.dcp.features.forgotpassword.presentation/ForgotPasswordState/emailError/#/PointingToDeclaration/compose-app/net.decodex.dcp.features.forgotpassword.presentation/-forgot-password-state/email-error.md
+$dokka.location:net.decodex.dcp.features.forgotpassword.presentation/ForgotPasswordState/emailSent/#/PointingToDeclaration/compose-app/net.decodex.dcp.features.forgotpassword.presentation/-forgot-password-state/email-sent.md
+$dokka.location:net.decodex.dcp.features.forgotpassword.presentation/ForgotPasswordState/errorMessage/#/PointingToDeclaration/compose-app/net.decodex.dcp.features.forgotpassword.presentation/-forgot-password-state/error-message.md
+$dokka.location:net.decodex.dcp.features.forgotpassword.presentation/ForgotPasswordState/isErrorVisible/#/PointingToDeclaration/compose-app/net.decodex.dcp.features.forgotpassword.presentation/-forgot-password-state/is-error-visible.md
+$dokka.location:net.decodex.dcp.features.forgotpassword.presentation/ForgotPasswordState/isInputValid/#/PointingToDeclaration/compose-app/net.decodex.dcp.features.forgotpassword.presentation/-forgot-password-state/is-input-valid.md
+$dokka.location:net.decodex.dcp.features.forgotpassword.presentation/ForgotPasswordState/isLoading/#/PointingToDeclaration/compose-app/net.decodex.dcp.features.forgotpassword.presentation/-forgot-password-state/is-loading.md
+$dokka.location:net.decodex.dcp.features.forgotpassword.presentation/ForgotPasswordViewModel///PointingToDeclaration/compose-app/net.decodex.dcp.features.forgotpassword.presentation/-forgot-password-view-model/index.md
+$dokka.location:net.decodex.dcp.features.forgotpassword.presentation/ForgotPasswordViewModel/ForgotPasswordViewModel/#net.decodex.dcp.core.supertokens.SuperTokensClient/PointingToDeclaration/compose-app/net.decodex.dcp.features.forgotpassword.presentation/-forgot-password-view-model/-forgot-password-view-model.md
+$dokka.location:net.decodex.dcp.features.forgotpassword.presentation/ForgotPasswordViewModel/navigator/#/PointingToDeclaration/compose-app/net.decodex.dcp.features.forgotpassword.presentation/-forgot-password-view-model/navigator.md
+$dokka.location:net.decodex.dcp.features.forgotpassword.presentation/ForgotPasswordViewModel/onEvent/#net.decodex.dcp.features.forgotpassword.presentation.ForgotPasswordEvent/PointingToDeclaration/compose-app/net.decodex.dcp.features.forgotpassword.presentation/-forgot-password-view-model/on-event.md
+$dokka.location:net.decodex.dcp.features.forgotpassword.presentation/ForgotPasswordViewModel/state/#/PointingToDeclaration/compose-app/net.decodex.dcp.features.forgotpassword.presentation/-forgot-password-view-model/state.md
 $dokka.location:net.decodex.dcp.features.login.presentation////PointingToDeclaration/compose-app/net.decodex.dcp.features.login.presentation/index.md
 $dokka.location:net.decodex.dcp.features.login.presentation//LoginForm/#net.decodex.dcp.features.login.presentation.LoginState#kotlin.Function1[net.decodex.dcp.features.login.presentation.LoginEvent,kotlin.Unit]/PointingToDeclaration/compose-app/net.decodex.dcp.features.login.presentation/-login-form.md
 $dokka.location:net.decodex.dcp.features.login.presentation//LoginScreen/#net.decodex.dcp.features.login.presentation.LoginState#kotlin.Function1[net.decodex.dcp.features.login.presentation.LoginEvent,kotlin.Unit]/PointingToDeclaration/compose-app/net.decodex.dcp.features.login.presentation/-login-screen.md
@@ -837,14 +903,12 @@ $dokka.location:net.decodex.dcp.features.login.presentation/LoginEvent.OnPasswor
 $dokka.location:net.decodex.dcp.features.login.presentation/LoginEvent.OnPasswordChanged/value/#/PointingToDeclaration/compose-app/net.decodex.dcp.features.login.presentation/-login-event/-on-password-changed/value.md
 $dokka.location:net.decodex.dcp.features.login.presentation/LoginEvent.OnRegisterClicked///PointingToDeclaration/compose-app/net.decodex.dcp.features.login.presentation/-login-event/-on-register-clicked/index.md
 $dokka.location:net.decodex.dcp.features.login.presentation/LoginEvent.SignInWithApple///PointingToDeclaration/compose-app/net.decodex.dcp.features.login.presentation/-login-event/-sign-in-with-apple/index.md
-$dokka.location:net.decodex.dcp.features.login.presentation/LoginEvent.SignInWithBitbucket///PointingToDeclaration/compose-app/net.decodex.dcp.features.login.presentation/-login-event/-sign-in-with-bitbucket/index.md
 $dokka.location:net.decodex.dcp.features.login.presentation/LoginEvent.SignInWithFacebook///PointingToDeclaration/compose-app/net.decodex.dcp.features.login.presentation/-login-event/-sign-in-with-facebook/index.md
 $dokka.location:net.decodex.dcp.features.login.presentation/LoginEvent.SignInWithGitHub///PointingToDeclaration/compose-app/net.decodex.dcp.features.login.presentation/-login-event/-sign-in-with-git-hub/index.md
-$dokka.location:net.decodex.dcp.features.login.presentation/LoginEvent.SignInWithGitLab///PointingToDeclaration/compose-app/net.decodex.dcp.features.login.presentation/-login-event/-sign-in-with-git-lab/index.md
 $dokka.location:net.decodex.dcp.features.login.presentation/LoginEvent.SignInWithGoogle///PointingToDeclaration/compose-app/net.decodex.dcp.features.login.presentation/-login-event/-sign-in-with-google/index.md
 $dokka.location:net.decodex.dcp.features.login.presentation/LoginEvent///PointingToDeclaration/compose-app/net.decodex.dcp.features.login.presentation/-login-event/index.md
 $dokka.location:net.decodex.dcp.features.login.presentation/LoginState///PointingToDeclaration/compose-app/net.decodex.dcp.features.login.presentation/-login-state/index.md
-$dokka.location:net.decodex.dcp.features.login.presentation/LoginState/LoginState/#kotlin.String#kotlin.String#org.jetbrains.compose.resources.StringResource?#org.jetbrains.compose.resources.StringResource?#kotlin.Boolean#kotlin.Boolean#net.decodex.dcp.core.supertokens.common.SuperTokensStatusException?#kotlin.Boolean/PointingToDeclaration/compose-app/net.decodex.dcp.features.login.presentation/-login-state/-login-state.md
+$dokka.location:net.decodex.dcp.features.login.presentation/LoginState/LoginState/#kotlin.String#kotlin.String#org.jetbrains.compose.resources.StringResource?#org.jetbrains.compose.resources.StringResource?#kotlin.Boolean#kotlin.Boolean#kotlin.String?#kotlin.Boolean/PointingToDeclaration/compose-app/net.decodex.dcp.features.login.presentation/-login-state/-login-state.md
 $dokka.location:net.decodex.dcp.features.login.presentation/LoginState/apiError/#/PointingToDeclaration/compose-app/net.decodex.dcp.features.login.presentation/-login-state/api-error.md
 $dokka.location:net.decodex.dcp.features.login.presentation/LoginState/email/#/PointingToDeclaration/compose-app/net.decodex.dcp.features.login.presentation/-login-state/email.md
 $dokka.location:net.decodex.dcp.features.login.presentation/LoginState/emailError/#/PointingToDeclaration/compose-app/net.decodex.dcp.features.login.presentation/-login-state/email-error.md
@@ -854,20 +918,124 @@ $dokka.location:net.decodex.dcp.features.login.presentation/LoginState/isLoading
 $dokka.location:net.decodex.dcp.features.login.presentation/LoginState/password/#/PointingToDeclaration/compose-app/net.decodex.dcp.features.login.presentation/-login-state/password.md
 $dokka.location:net.decodex.dcp.features.login.presentation/LoginState/passwordError/#/PointingToDeclaration/compose-app/net.decodex.dcp.features.login.presentation/-login-state/password-error.md
 $dokka.location:net.decodex.dcp.features.login.presentation/LoginViewModel///PointingToDeclaration/compose-app/net.decodex.dcp.features.login.presentation/-login-view-model/index.md
-$dokka.location:net.decodex.dcp.features.login.presentation/LoginViewModel/LoginViewModel/#net.decodex.dcp.core.supertokens.SuperTokensClient/PointingToDeclaration/compose-app/net.decodex.dcp.features.login.presentation/-login-view-model/-login-view-model.md
+$dokka.location:net.decodex.dcp.features.login.presentation/LoginViewModel/LoginViewModel/#net.decodex.dcp.core.supertokens.SuperTokensClient#com.myunidays.launchdarkly.LDClient/PointingToDeclaration/compose-app/net.decodex.dcp.features.login.presentation/-login-view-model/-login-view-model.md
+$dokka.location:net.decodex.dcp.features.login.presentation/LoginViewModel/navigator/#/PointingToDeclaration/compose-app/net.decodex.dcp.features.login.presentation/-login-view-model/navigator.md
 $dokka.location:net.decodex.dcp.features.login.presentation/LoginViewModel/onEvent/#net.decodex.dcp.features.login.presentation.LoginEvent/PointingToDeclaration/compose-app/net.decodex.dcp.features.login.presentation/-login-view-model/on-event.md
 $dokka.location:net.decodex.dcp.features.login.presentation/LoginViewModel/state/#/PointingToDeclaration/compose-app/net.decodex.dcp.features.login.presentation/-login-view-model/state.md
+$dokka.location:net.decodex.dcp.features.mfa.presentation////PointingToDeclaration/compose-app/net.decodex.dcp.features.mfa.presentation/index.md
+$dokka.location:net.decodex.dcp.features.mfa.presentation//MfaContent/#net.decodex.dcp.features.mfa.presentation.MfaState#kotlin.Function1[net.decodex.dcp.features.mfa.presentation.MfaEvent,kotlin.Unit]/PointingToDeclaration/compose-app/net.decodex.dcp.features.mfa.presentation/-mfa-content.md
+$dokka.location:net.decodex.dcp.features.mfa.presentation//MfaScreen/#androidx.navigation.NavHostController#net.decodex.dcp.features.mfa.presentation.MfaState#kotlin.Function1[net.decodex.dcp.features.mfa.presentation.MfaEvent,kotlin.Unit]/PointingToDeclaration/compose-app/net.decodex.dcp.features.mfa.presentation/-mfa-screen.md
+$dokka.location:net.decodex.dcp.features.mfa.presentation/MfaEvent.Cancel///PointingToDeclaration/compose-app/net.decodex.dcp.features.mfa.presentation/-mfa-event/-cancel/index.md
+$dokka.location:net.decodex.dcp.features.mfa.presentation/MfaEvent.GotoEmailOtp///PointingToDeclaration/compose-app/net.decodex.dcp.features.mfa.presentation/-mfa-event/-goto-email-otp/index.md
+$dokka.location:net.decodex.dcp.features.mfa.presentation/MfaEvent.GotoPhoneOtp///PointingToDeclaration/compose-app/net.decodex.dcp.features.mfa.presentation/-mfa-event/-goto-phone-otp/index.md
+$dokka.location:net.decodex.dcp.features.mfa.presentation/MfaEvent.GotoTotp///PointingToDeclaration/compose-app/net.decodex.dcp.features.mfa.presentation/-mfa-event/-goto-totp/index.md
+$dokka.location:net.decodex.dcp.features.mfa.presentation/MfaEvent.OnErrorDialogDismissed///PointingToDeclaration/compose-app/net.decodex.dcp.features.mfa.presentation/-mfa-event/-on-error-dialog-dismissed/index.md
+$dokka.location:net.decodex.dcp.features.mfa.presentation/MfaEvent.RefreshStatus///PointingToDeclaration/compose-app/net.decodex.dcp.features.mfa.presentation/-mfa-event/-refresh-status/index.md
+$dokka.location:net.decodex.dcp.features.mfa.presentation/MfaEvent///PointingToDeclaration/compose-app/net.decodex.dcp.features.mfa.presentation/-mfa-event/index.md
+$dokka.location:net.decodex.dcp.features.mfa.presentation/MfaState///PointingToDeclaration/compose-app/net.decodex.dcp.features.mfa.presentation/-mfa-state/index.md
+$dokka.location:net.decodex.dcp.features.mfa.presentation/MfaState/MfaState/#kotlin.Boolean#net.decodex.dcp.core.supertokens.models.MultiFactorAuthStatus?#kotlin.Boolean#kotlin.String?/PointingToDeclaration/compose-app/net.decodex.dcp.features.mfa.presentation/-mfa-state/-mfa-state.md
+$dokka.location:net.decodex.dcp.features.mfa.presentation/MfaState/errorMessage/#/PointingToDeclaration/compose-app/net.decodex.dcp.features.mfa.presentation/-mfa-state/error-message.md
+$dokka.location:net.decodex.dcp.features.mfa.presentation/MfaState/isErrorVisible/#/PointingToDeclaration/compose-app/net.decodex.dcp.features.mfa.presentation/-mfa-state/is-error-visible.md
+$dokka.location:net.decodex.dcp.features.mfa.presentation/MfaState/isLoading/#/PointingToDeclaration/compose-app/net.decodex.dcp.features.mfa.presentation/-mfa-state/is-loading.md
+$dokka.location:net.decodex.dcp.features.mfa.presentation/MfaState/mfaStatus/#/PointingToDeclaration/compose-app/net.decodex.dcp.features.mfa.presentation/-mfa-state/mfa-status.md
+$dokka.location:net.decodex.dcp.features.mfa.presentation/MfaViewModel///PointingToDeclaration/compose-app/net.decodex.dcp.features.mfa.presentation/-mfa-view-model/index.md
+$dokka.location:net.decodex.dcp.features.mfa.presentation/MfaViewModel/MfaViewModel/#net.decodex.dcp.core.supertokens.SuperTokensClient/PointingToDeclaration/compose-app/net.decodex.dcp.features.mfa.presentation/-mfa-view-model/-mfa-view-model.md
+$dokka.location:net.decodex.dcp.features.mfa.presentation/MfaViewModel/navigator/#/PointingToDeclaration/compose-app/net.decodex.dcp.features.mfa.presentation/-mfa-view-model/navigator.md
+$dokka.location:net.decodex.dcp.features.mfa.presentation/MfaViewModel/onEvent/#net.decodex.dcp.features.mfa.presentation.MfaEvent/PointingToDeclaration/compose-app/net.decodex.dcp.features.mfa.presentation/-mfa-view-model/on-event.md
+$dokka.location:net.decodex.dcp.features.mfa.presentation/MfaViewModel/state/#/PointingToDeclaration/compose-app/net.decodex.dcp.features.mfa.presentation/-mfa-view-model/state.md
+$dokka.location:net.decodex.dcp.features.register.presentation////PointingToDeclaration/compose-app/net.decodex.dcp.features.register.presentation/index.md
+$dokka.location:net.decodex.dcp.features.register.presentation//RegisterForm/#net.decodex.dcp.features.register.presentation.RegisterState#kotlin.Function1[net.decodex.dcp.features.register.presentation.RegisterEvent,kotlin.Unit]/PointingToDeclaration/compose-app/net.decodex.dcp.features.register.presentation/-register-form.md
+$dokka.location:net.decodex.dcp.features.register.presentation//RegisterScreen/#androidx.navigation.NavController#net.decodex.dcp.features.register.presentation.RegisterState#kotlin.Function1[net.decodex.dcp.features.register.presentation.RegisterEvent,kotlin.Unit]/PointingToDeclaration/compose-app/net.decodex.dcp.features.register.presentation/-register-screen.md
+$dokka.location:net.decodex.dcp.features.register.presentation/RegisterEvent.DismissErrorDialog///PointingToDeclaration/compose-app/net.decodex.dcp.features.register.presentation/-register-event/-dismiss-error-dialog/index.md
+$dokka.location:net.decodex.dcp.features.register.presentation/RegisterEvent.OnEmailChanged///PointingToDeclaration/compose-app/net.decodex.dcp.features.register.presentation/-register-event/-on-email-changed/index.md
+$dokka.location:net.decodex.dcp.features.register.presentation/RegisterEvent.OnEmailChanged/OnEmailChanged/#kotlin.String/PointingToDeclaration/compose-app/net.decodex.dcp.features.register.presentation/-register-event/-on-email-changed/-on-email-changed.md
+$dokka.location:net.decodex.dcp.features.register.presentation/RegisterEvent.OnEmailChanged/value/#/PointingToDeclaration/compose-app/net.decodex.dcp.features.register.presentation/-register-event/-on-email-changed/value.md
+$dokka.location:net.decodex.dcp.features.register.presentation/RegisterEvent.OnLoginClick///PointingToDeclaration/compose-app/net.decodex.dcp.features.register.presentation/-register-event/-on-login-click/index.md
+$dokka.location:net.decodex.dcp.features.register.presentation/RegisterEvent.OnPasswordChanged///PointingToDeclaration/compose-app/net.decodex.dcp.features.register.presentation/-register-event/-on-password-changed/index.md
+$dokka.location:net.decodex.dcp.features.register.presentation/RegisterEvent.OnPasswordChanged/OnPasswordChanged/#kotlin.String/PointingToDeclaration/compose-app/net.decodex.dcp.features.register.presentation/-register-event/-on-password-changed/-on-password-changed.md
+$dokka.location:net.decodex.dcp.features.register.presentation/RegisterEvent.OnPasswordChanged/value/#/PointingToDeclaration/compose-app/net.decodex.dcp.features.register.presentation/-register-event/-on-password-changed/value.md
+$dokka.location:net.decodex.dcp.features.register.presentation/RegisterEvent.OnRegisterClick///PointingToDeclaration/compose-app/net.decodex.dcp.features.register.presentation/-register-event/-on-register-click/index.md
+$dokka.location:net.decodex.dcp.features.register.presentation/RegisterEvent.SignUpWithApple///PointingToDeclaration/compose-app/net.decodex.dcp.features.register.presentation/-register-event/-sign-up-with-apple/index.md
+$dokka.location:net.decodex.dcp.features.register.presentation/RegisterEvent.SignUpWithFacebook///PointingToDeclaration/compose-app/net.decodex.dcp.features.register.presentation/-register-event/-sign-up-with-facebook/index.md
+$dokka.location:net.decodex.dcp.features.register.presentation/RegisterEvent.SignUpWithGitHub///PointingToDeclaration/compose-app/net.decodex.dcp.features.register.presentation/-register-event/-sign-up-with-git-hub/index.md
+$dokka.location:net.decodex.dcp.features.register.presentation/RegisterEvent.SignUpWithGoogle///PointingToDeclaration/compose-app/net.decodex.dcp.features.register.presentation/-register-event/-sign-up-with-google/index.md
+$dokka.location:net.decodex.dcp.features.register.presentation/RegisterEvent///PointingToDeclaration/compose-app/net.decodex.dcp.features.register.presentation/-register-event/index.md
+$dokka.location:net.decodex.dcp.features.register.presentation/RegisterState///PointingToDeclaration/compose-app/net.decodex.dcp.features.register.presentation/-register-state/index.md
+$dokka.location:net.decodex.dcp.features.register.presentation/RegisterState/RegisterState/#kotlin.String#kotlin.String#org.jetbrains.compose.resources.StringResource?#org.jetbrains.compose.resources.StringResource?#kotlin.Boolean#kotlin.Boolean#kotlin.String?#kotlin.Boolean/PointingToDeclaration/compose-app/net.decodex.dcp.features.register.presentation/-register-state/-register-state.md
+$dokka.location:net.decodex.dcp.features.register.presentation/RegisterState/email/#/PointingToDeclaration/compose-app/net.decodex.dcp.features.register.presentation/-register-state/email.md
+$dokka.location:net.decodex.dcp.features.register.presentation/RegisterState/emailError/#/PointingToDeclaration/compose-app/net.decodex.dcp.features.register.presentation/-register-state/email-error.md
+$dokka.location:net.decodex.dcp.features.register.presentation/RegisterState/errorMessage/#/PointingToDeclaration/compose-app/net.decodex.dcp.features.register.presentation/-register-state/error-message.md
+$dokka.location:net.decodex.dcp.features.register.presentation/RegisterState/isErrorVisible/#/PointingToDeclaration/compose-app/net.decodex.dcp.features.register.presentation/-register-state/is-error-visible.md
+$dokka.location:net.decodex.dcp.features.register.presentation/RegisterState/isInputValid/#/PointingToDeclaration/compose-app/net.decodex.dcp.features.register.presentation/-register-state/is-input-valid.md
+$dokka.location:net.decodex.dcp.features.register.presentation/RegisterState/isLoading/#/PointingToDeclaration/compose-app/net.decodex.dcp.features.register.presentation/-register-state/is-loading.md
+$dokka.location:net.decodex.dcp.features.register.presentation/RegisterState/password/#/PointingToDeclaration/compose-app/net.decodex.dcp.features.register.presentation/-register-state/password.md
+$dokka.location:net.decodex.dcp.features.register.presentation/RegisterState/passwordError/#/PointingToDeclaration/compose-app/net.decodex.dcp.features.register.presentation/-register-state/password-error.md
+$dokka.location:net.decodex.dcp.features.register.presentation/RegisterViewModel///PointingToDeclaration/compose-app/net.decodex.dcp.features.register.presentation/-register-view-model/index.md
+$dokka.location:net.decodex.dcp.features.register.presentation/RegisterViewModel/RegisterViewModel/#net.decodex.dcp.core.supertokens.SuperTokensClient/PointingToDeclaration/compose-app/net.decodex.dcp.features.register.presentation/-register-view-model/-register-view-model.md
+$dokka.location:net.decodex.dcp.features.register.presentation/RegisterViewModel/navigator/#/PointingToDeclaration/compose-app/net.decodex.dcp.features.register.presentation/-register-view-model/navigator.md
+$dokka.location:net.decodex.dcp.features.register.presentation/RegisterViewModel/onEvent/#net.decodex.dcp.features.register.presentation.RegisterEvent/PointingToDeclaration/compose-app/net.decodex.dcp.features.register.presentation/-register-view-model/on-event.md
+$dokka.location:net.decodex.dcp.features.register.presentation/RegisterViewModel/state/#/PointingToDeclaration/compose-app/net.decodex.dcp.features.register.presentation/-register-view-model/state.md
+$dokka.location:net.decodex.dcp.features.totp.presentation////PointingToDeclaration/compose-app/net.decodex.dcp.features.totp.presentation/index.md
+$dokka.location:net.decodex.dcp.features.totp.presentation//TotpScreen/#net.decodex.dcp.features.totp.presentation.TotpState#kotlin.Function1[net.decodex.dcp.features.totp.presentation.TotpEvent,kotlin.Unit]/PointingToDeclaration/compose-app/net.decodex.dcp.features.totp.presentation/-totp-screen.md
+$dokka.location:net.decodex.dcp.features.totp.presentation/TotpEvent.CreateDevice///PointingToDeclaration/compose-app/net.decodex.dcp.features.totp.presentation/-totp-event/-create-device/index.md
+$dokka.location:net.decodex.dcp.features.totp.presentation/TotpEvent.CreateDevice/CreateDevice/#kotlin.String/PointingToDeclaration/compose-app/net.decodex.dcp.features.totp.presentation/-totp-event/-create-device/-create-device.md
+$dokka.location:net.decodex.dcp.features.totp.presentation/TotpEvent.CreateDevice/deviceName/#/PointingToDeclaration/compose-app/net.decodex.dcp.features.totp.presentation/-totp-event/-create-device/device-name.md
+$dokka.location:net.decodex.dcp.features.totp.presentation/TotpEvent.GoBack///PointingToDeclaration/compose-app/net.decodex.dcp.features.totp.presentation/-totp-event/-go-back/index.md
+$dokka.location:net.decodex.dcp.features.totp.presentation/TotpEvent.OnDeviceNameChange///PointingToDeclaration/compose-app/net.decodex.dcp.features.totp.presentation/-totp-event/-on-device-name-change/index.md
+$dokka.location:net.decodex.dcp.features.totp.presentation/TotpEvent.OnDeviceNameChange/OnDeviceNameChange/#kotlin.String/PointingToDeclaration/compose-app/net.decodex.dcp.features.totp.presentation/-totp-event/-on-device-name-change/-on-device-name-change.md
+$dokka.location:net.decodex.dcp.features.totp.presentation/TotpEvent.OnDeviceNameChange/deviceName/#/PointingToDeclaration/compose-app/net.decodex.dcp.features.totp.presentation/-totp-event/-on-device-name-change/device-name.md
+$dokka.location:net.decodex.dcp.features.totp.presentation/TotpEvent.OnDismissErrorDialog///PointingToDeclaration/compose-app/net.decodex.dcp.features.totp.presentation/-totp-event/-on-dismiss-error-dialog/index.md
+$dokka.location:net.decodex.dcp.features.totp.presentation/TotpEvent.OnTotpChange///PointingToDeclaration/compose-app/net.decodex.dcp.features.totp.presentation/-totp-event/-on-totp-change/index.md
+$dokka.location:net.decodex.dcp.features.totp.presentation/TotpEvent.OnTotpChange/OnTotpChange/#kotlin.String/PointingToDeclaration/compose-app/net.decodex.dcp.features.totp.presentation/-totp-event/-on-totp-change/-on-totp-change.md
+$dokka.location:net.decodex.dcp.features.totp.presentation/TotpEvent.OnTotpChange/totp/#/PointingToDeclaration/compose-app/net.decodex.dcp.features.totp.presentation/-totp-event/-on-totp-change/totp.md
+$dokka.location:net.decodex.dcp.features.totp.presentation/TotpEvent.Verify///PointingToDeclaration/compose-app/net.decodex.dcp.features.totp.presentation/-totp-event/-verify/index.md
+$dokka.location:net.decodex.dcp.features.totp.presentation/TotpEvent.Verify/Verify/#kotlin.String/PointingToDeclaration/compose-app/net.decodex.dcp.features.totp.presentation/-totp-event/-verify/-verify.md
+$dokka.location:net.decodex.dcp.features.totp.presentation/TotpEvent.Verify/totp/#/PointingToDeclaration/compose-app/net.decodex.dcp.features.totp.presentation/-totp-event/-verify/totp.md
+$dokka.location:net.decodex.dcp.features.totp.presentation/TotpEvent///PointingToDeclaration/compose-app/net.decodex.dcp.features.totp.presentation/-totp-event/index.md
+$dokka.location:net.decodex.dcp.features.totp.presentation/TotpState.AddDevice///PointingToDeclaration/compose-app/net.decodex.dcp.features.totp.presentation/-totp-state/-add-device/index.md
+$dokka.location:net.decodex.dcp.features.totp.presentation/TotpState.AddDevice/AddDevice/#kotlin.String/PointingToDeclaration/compose-app/net.decodex.dcp.features.totp.presentation/-totp-state/-add-device/-add-device.md
+$dokka.location:net.decodex.dcp.features.totp.presentation/TotpState.AddDevice/deviceName/#/PointingToDeclaration/compose-app/net.decodex.dcp.features.totp.presentation/-totp-state/-add-device/device-name.md
+$dokka.location:net.decodex.dcp.features.totp.presentation/TotpState.EnterTotp///PointingToDeclaration/compose-app/net.decodex.dcp.features.totp.presentation/-totp-state/-enter-totp/index.md
+$dokka.location:net.decodex.dcp.features.totp.presentation/TotpState.EnterTotp/EnterTotp/#kotlin.String/PointingToDeclaration/compose-app/net.decodex.dcp.features.totp.presentation/-totp-state/-enter-totp/-enter-totp.md
+$dokka.location:net.decodex.dcp.features.totp.presentation/TotpState.EnterTotp/totp/#/PointingToDeclaration/compose-app/net.decodex.dcp.features.totp.presentation/-totp-state/-enter-totp/totp.md
+$dokka.location:net.decodex.dcp.features.totp.presentation/TotpState.Error///PointingToDeclaration/compose-app/net.decodex.dcp.features.totp.presentation/-totp-state/-error/index.md
+$dokka.location:net.decodex.dcp.features.totp.presentation/TotpState.Error/Error/#kotlin.String?#kotlin.Boolean/PointingToDeclaration/compose-app/net.decodex.dcp.features.totp.presentation/-totp-state/-error/-error.md
+$dokka.location:net.decodex.dcp.features.totp.presentation/TotpState.Error/errorMessage/#/PointingToDeclaration/compose-app/net.decodex.dcp.features.totp.presentation/-totp-state/-error/error-message.md
+$dokka.location:net.decodex.dcp.features.totp.presentation/TotpState.Error/isDialogVisible/#/PointingToDeclaration/compose-app/net.decodex.dcp.features.totp.presentation/-totp-state/-error/is-dialog-visible.md
+$dokka.location:net.decodex.dcp.features.totp.presentation/TotpState.Loading///PointingToDeclaration/compose-app/net.decodex.dcp.features.totp.presentation/-totp-state/-loading/index.md
+$dokka.location:net.decodex.dcp.features.totp.presentation/TotpState.VerifyDevice///PointingToDeclaration/compose-app/net.decodex.dcp.features.totp.presentation/-totp-state/-verify-device/index.md
+$dokka.location:net.decodex.dcp.features.totp.presentation/TotpState.VerifyDevice/VerifyDevice/#kotlin.String#kotlin.String#kotlin.String#kotlin.String/PointingToDeclaration/compose-app/net.decodex.dcp.features.totp.presentation/-totp-state/-verify-device/-verify-device.md
+$dokka.location:net.decodex.dcp.features.totp.presentation/TotpState.VerifyDevice/deviceName/#/PointingToDeclaration/compose-app/net.decodex.dcp.features.totp.presentation/-totp-state/-verify-device/device-name.md
+$dokka.location:net.decodex.dcp.features.totp.presentation/TotpState.VerifyDevice/qrCodeValue/#/PointingToDeclaration/compose-app/net.decodex.dcp.features.totp.presentation/-totp-state/-verify-device/qr-code-value.md
+$dokka.location:net.decodex.dcp.features.totp.presentation/TotpState.VerifyDevice/secret/#/PointingToDeclaration/compose-app/net.decodex.dcp.features.totp.presentation/-totp-state/-verify-device/secret.md
+$dokka.location:net.decodex.dcp.features.totp.presentation/TotpState.VerifyDevice/totp/#/PointingToDeclaration/compose-app/net.decodex.dcp.features.totp.presentation/-totp-state/-verify-device/totp.md
+$dokka.location:net.decodex.dcp.features.totp.presentation/TotpState///PointingToDeclaration/compose-app/net.decodex.dcp.features.totp.presentation/-totp-state/index.md
+$dokka.location:net.decodex.dcp.features.totp.presentation/TotpViewModel///PointingToDeclaration/compose-app/net.decodex.dcp.features.totp.presentation/-totp-view-model/index.md
+$dokka.location:net.decodex.dcp.features.totp.presentation/TotpViewModel/TotpViewModel/#net.decodex.dcp.core.supertokens.SuperTokensClient/PointingToDeclaration/compose-app/net.decodex.dcp.features.totp.presentation/-totp-view-model/-totp-view-model.md
+$dokka.location:net.decodex.dcp.features.totp.presentation/TotpViewModel/navigator/#/PointingToDeclaration/compose-app/net.decodex.dcp.features.totp.presentation/-totp-view-model/navigator.md
+$dokka.location:net.decodex.dcp.features.totp.presentation/TotpViewModel/onEvent/#net.decodex.dcp.features.totp.presentation.TotpEvent/PointingToDeclaration/compose-app/net.decodex.dcp.features.totp.presentation/-totp-view-model/on-event.md
+$dokka.location:net.decodex.dcp.features.totp.presentation/TotpViewModel/state/#/PointingToDeclaration/compose-app/net.decodex.dcp.features.totp.presentation/-totp-view-model/state.md
+$dokka.location:net.decodex.dcp.features.user.domain.dao////PointingToDeclaration/compose-app/net.decodex.dcp.features.user.domain.dao/index.md
+$dokka.location:net.decodex.dcp.features.user.domain.dao/UserDao///PointingToDeclaration/compose-app/net.decodex.dcp.features.user.domain.dao/-user-dao/index.md
+$dokka.location:net.decodex.dcp.features.user.domain.dao/UserDao/delete/#net.decodex.dcp.features.user.domain.entities.User/PointingToDeclaration/compose-app/net.decodex.dcp.features.user.domain.dao/-user-dao/delete.md
+$dokka.location:net.decodex.dcp.features.user.domain.dao/UserDao/findAll/#/PointingToDeclaration/compose-app/net.decodex.dcp.features.user.domain.dao/-user-dao/find-all.md
+$dokka.location:net.decodex.dcp.features.user.domain.dao/UserDao/findById/#kotlin.String/PointingToDeclaration/compose-app/net.decodex.dcp.features.user.domain.dao/-user-dao/find-by-id.md
+$dokka.location:net.decodex.dcp.features.user.domain.dao/UserDao/upsert/#net.decodex.dcp.features.user.domain.entities.User/PointingToDeclaration/compose-app/net.decodex.dcp.features.user.domain.dao/-user-dao/upsert.md
+$dokka.location:net.decodex.dcp.features.user.domain.entities////PointingToDeclaration/compose-app/net.decodex.dcp.features.user.domain.entities/index.md
+$dokka.location:net.decodex.dcp.features.user.domain.entities/User///PointingToDeclaration/compose-app/net.decodex.dcp.features.user.domain.entities/-user/index.md
+$dokka.location:net.decodex.dcp.features.user.domain.entities/User/User/#kotlin.String/PointingToDeclaration/compose-app/net.decodex.dcp.features.user.domain.entities/-user/-user.md
+$dokka.location:net.decodex.dcp.features.user.domain.entities/User/id/#/PointingToDeclaration/compose-app/net.decodex.dcp.features.user.domain.entities/-user/id.md
 $dokka.location:net.decodex.dcp.ui.animtations////PointingToDeclaration/compose-app/net.decodex.dcp.ui.animtations/index.md
 $dokka.location:net.decodex.dcp.ui.animtations//AnimatedScreenTransition/#androidx.navigation.NavHostController#kotlin.String#kotlin.Function0[kotlin.Unit]/PointingToDeclaration/compose-app/net.decodex.dcp.ui.animtations/-animated-screen-transition.md
 $dokka.location:net.decodex.dcp.ui.components////PointingToDeclaration/compose-app/net.decodex.dcp.ui.components/index.md
-$dokka.location:net.decodex.dcp.ui.components//AppleLoginButton/#kotlin.Function0[kotlin.Unit]/PointingToDeclaration/compose-app/net.decodex.dcp.ui.components/-apple-login-button.md
-$dokka.location:net.decodex.dcp.ui.components//BitbucketLoginButton/#kotlin.Function0[kotlin.Unit]/PointingToDeclaration/compose-app/net.decodex.dcp.ui.components/-bitbucket-login-button.md
+$dokka.location:net.decodex.dcp.ui.components//AppleLoginButton/#kotlin.Boolean#kotlin.Function0[kotlin.Unit]/PointingToDeclaration/compose-app/net.decodex.dcp.ui.components/-apple-login-button.md
+$dokka.location:net.decodex.dcp.ui.components//BitbucketLoginButton/#kotlin.Boolean#kotlin.Function0[kotlin.Unit]/PointingToDeclaration/compose-app/net.decodex.dcp.ui.components/-bitbucket-login-button.md
 $dokka.location:net.decodex.dcp.ui.components//EmailField/#kotlin.String#kotlin.Function1[kotlin.String,kotlin.Unit]#org.jetbrains.compose.resources.StringResource?#androidx.compose.ui.Modifier#kotlin.String#kotlin.String/PointingToDeclaration/compose-app/net.decodex.dcp.ui.components/-email-field.md
 $dokka.location:net.decodex.dcp.ui.components//ErrorDialog/#kotlin.String#kotlin.String?#kotlin.Function0[kotlin.Unit]/PointingToDeclaration/compose-app/net.decodex.dcp.ui.components/-error-dialog.md
-$dokka.location:net.decodex.dcp.ui.components//FacebookLoginButton/#kotlin.Function0[kotlin.Unit]/PointingToDeclaration/compose-app/net.decodex.dcp.ui.components/-facebook-login-button.md
-$dokka.location:net.decodex.dcp.ui.components//GitHubLoginButton/#kotlin.Function0[kotlin.Unit]/PointingToDeclaration/compose-app/net.decodex.dcp.ui.components/-git-hub-login-button.md
-$dokka.location:net.decodex.dcp.ui.components//GitLabLoginButton/#kotlin.Function0[kotlin.Unit]/PointingToDeclaration/compose-app/net.decodex.dcp.ui.components/-git-lab-login-button.md
-$dokka.location:net.decodex.dcp.ui.components//GoogleLoginButton/#kotlin.Function0[kotlin.Unit]/PointingToDeclaration/compose-app/net.decodex.dcp.ui.components/-google-login-button.md
+$dokka.location:net.decodex.dcp.ui.components//FacebookLoginButton/#kotlin.Boolean#kotlin.Function0[kotlin.Unit]/PointingToDeclaration/compose-app/net.decodex.dcp.ui.components/-facebook-login-button.md
+$dokka.location:net.decodex.dcp.ui.components//GitHubLoginButton/#kotlin.Boolean#kotlin.Function0[kotlin.Unit]/PointingToDeclaration/compose-app/net.decodex.dcp.ui.components/-git-hub-login-button.md
+$dokka.location:net.decodex.dcp.ui.components//GitLabLoginButton/#kotlin.Boolean#kotlin.Function0[kotlin.Unit]/PointingToDeclaration/compose-app/net.decodex.dcp.ui.components/-git-lab-login-button.md
+$dokka.location:net.decodex.dcp.ui.components//GoogleLoginButton/#kotlin.Boolean#kotlin.Function0[kotlin.Unit]/PointingToDeclaration/compose-app/net.decodex.dcp.ui.components/-google-login-button.md
 $dokka.location:net.decodex.dcp.ui.components//LoadingOverlay/#kotlin.Boolean#androidx.compose.ui.Modifier#androidx.compose.ui.graphics.Color#kotlin.Boolean/PointingToDeclaration/compose-app/net.decodex.dcp.ui.components/-loading-overlay.md
 $dokka.location:net.decodex.dcp.ui.components//ORComponent/#/PointingToDeclaration/compose-app/net.decodex.dcp.ui.components/-o-r-component.md
 $dokka.location:net.decodex.dcp.ui.components//PasswordField/#kotlin.String#kotlin.Function1[kotlin.String,kotlin.Unit]#kotlin.Function0[kotlin.Unit]#org.jetbrains.compose.resources.StringResource?#androidx.compose.ui.Modifier#kotlin.String#kotlin.String/PointingToDeclaration/compose-app/net.decodex.dcp.ui.components/-password-field.md
@@ -1097,16 +1265,6 @@ $dokka.location:net.decodex.dcp.ui.theme/ColorFamily/onColor/#/PointingToDeclara
 $dokka.location:net.decodex.dcp.ui.theme/ColorFamily/onColorContainer/#/PointingToDeclaration/compose-app/net.decodex.dcp.ui.theme/-color-family/on-color-container.md
 $dokka.location:net.decodex.dcp.ui////PointingToDeclaration/compose-app/net.decodex.dcp.ui/index.md
 $dokka.location:net.decodex.dcp.ui//getPlatformDialogProperties/#kotlin.Boolean#kotlin.Boolean#kotlin.Boolean#kotlin.Boolean#kotlin.Boolean#androidx.compose.ui.graphics.Color/PointingToDeclaration/compose-app/net.decodex.dcp.ui/get-platform-dialog-properties.md
-$dokka.location:net.decodex.dcp.user.domain.dao////PointingToDeclaration/compose-app/net.decodex.dcp.user.domain.dao/index.md
-$dokka.location:net.decodex.dcp.user.domain.dao/UserDao///PointingToDeclaration/compose-app/net.decodex.dcp.user.domain.dao/-user-dao/index.md
-$dokka.location:net.decodex.dcp.user.domain.dao/UserDao/delete/#net.decodex.dcp.user.domain.entities.User/PointingToDeclaration/compose-app/net.decodex.dcp.user.domain.dao/-user-dao/delete.md
-$dokka.location:net.decodex.dcp.user.domain.dao/UserDao/findAll/#/PointingToDeclaration/compose-app/net.decodex.dcp.user.domain.dao/-user-dao/find-all.md
-$dokka.location:net.decodex.dcp.user.domain.dao/UserDao/findById/#kotlin.String/PointingToDeclaration/compose-app/net.decodex.dcp.user.domain.dao/-user-dao/find-by-id.md
-$dokka.location:net.decodex.dcp.user.domain.dao/UserDao/upsert/#net.decodex.dcp.user.domain.entities.User/PointingToDeclaration/compose-app/net.decodex.dcp.user.domain.dao/-user-dao/upsert.md
-$dokka.location:net.decodex.dcp.user.domain.entities////PointingToDeclaration/compose-app/net.decodex.dcp.user.domain.entities/index.md
-$dokka.location:net.decodex.dcp.user.domain.entities/User///PointingToDeclaration/compose-app/net.decodex.dcp.user.domain.entities/-user/index.md
-$dokka.location:net.decodex.dcp.user.domain.entities/User/User/#kotlin.String/PointingToDeclaration/compose-app/net.decodex.dcp.user.domain.entities/-user/-user.md
-$dokka.location:net.decodex.dcp.user.domain.entities/User/id/#/PointingToDeclaration/compose-app/net.decodex.dcp.user.domain.entities/-user/id.md
 $dokka.location:net.decodex.dcp////PointingToDeclaration/compose-app/net.decodex.dcp/index.md
 $dokka.location:net.decodex.dcp//AnimatedNavHost/#androidx.compose.ui.Modifier#androidx.navigation.NavHostController/PointingToDeclaration/compose-app/net.decodex.dcp/-animated-nav-host.md
 $dokka.location:net.decodex.dcp//App/#kotlin.Boolean#kotlin.Boolean/PointingToDeclaration/compose-app/net.decodex.dcp/-app.md
@@ -1120,6 +1278,7 @@ $dokka.location:net.decodex.dcp/MainActivity/MainActivity/#/PointingToDeclaratio
 net.decodex.dcp
 net.decodex.dcp.core.constants
 net.decodex.dcp.core.data
+net.decodex.dcp.core.launchdarkly
 net.decodex.dcp.core.networking
 net.decodex.dcp.core.presentation
 net.decodex.dcp.core.supertokens
@@ -1145,11 +1304,17 @@ net.decodex.dcp.core.supertokens.requests
 net.decodex.dcp.core.supertokens.responses
 net.decodex.dcp.core.utils
 net.decodex.dcp.di
+net.decodex.dcp.features.auth.presentation
+net.decodex.dcp.features.emailotp.presnetation
+net.decodex.dcp.features.forgotpassword.presentation
 net.decodex.dcp.features.login.presentation
+net.decodex.dcp.features.mfa.presentation
+net.decodex.dcp.features.register.presentation
+net.decodex.dcp.features.totp.presentation
+net.decodex.dcp.features.user.domain.dao
+net.decodex.dcp.features.user.domain.entities
 net.decodex.dcp.ui
 net.decodex.dcp.ui.animtations
 net.decodex.dcp.ui.components
 net.decodex.dcp.ui.theme
-net.decodex.dcp.user.domain.dao
-net.decodex.dcp.user.domain.entities
 

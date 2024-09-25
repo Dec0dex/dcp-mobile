@@ -9,4 +9,4 @@ object [ApiRoutes](index.md)
 
 | Name | Summary |
 |---|---|
-| [AUTH](-a-u-t-h.md) | [common]<br>const val [AUTH](-a-u-t-h.md): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |
+| [AUTH](-a-u-t-h.md) | [common]<br>val [AUTH](-a-u-t-h.md): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |

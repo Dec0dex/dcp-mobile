@@ -113,8 +113,10 @@ class SessionRecipe(
         install(Auth) {
             bearer {
                 loadTokens {
-                    tokensRepository.getRefreshToken()?.let {
-                        BearerTokens(tokensRepository.getAccessToken() ?: "", it)
+                    tokensRepository.getRefreshToken()?.let { refreshToken ->
+                        tokensRepository.getAccessToken()?.let { accessToken ->
+                            BearerTokens(accessToken, refreshToken)
+                        }
                     }
                 }
 

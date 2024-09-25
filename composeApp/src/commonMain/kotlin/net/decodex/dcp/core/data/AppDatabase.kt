@@ -2,8 +2,8 @@ package net.decodex.dcp.core.data
 
 import androidx.room.Database
 import androidx.room.RoomDatabase
-import net.decodex.dcp.user.domain.dao.UserDao
-import net.decodex.dcp.user.domain.entities.User
+import net.decodex.dcp.features.user.domain.dao.UserDao
+import net.decodex.dcp.features.user.domain.entities.User
 
 @Database(
     entities = [User::class],

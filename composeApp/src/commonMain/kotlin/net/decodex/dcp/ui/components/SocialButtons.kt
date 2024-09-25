@@ -27,11 +27,21 @@ import dcp_mobile.composeapp.generated.resources.ic_github_logo
 import dcp_mobile.composeapp.generated.resources.ic_gitlab_logo
 import dcp_mobile.composeapp.generated.resources.ic_google_logo
 import dcp_mobile.composeapp.generated.resources.sign_in_with
+import dcp_mobile.composeapp.generated.resources.sign_up_with
 import org.jetbrains.compose.resources.painterResource
 import org.jetbrains.compose.resources.stringResource
 
 @Composable
-fun GoogleLoginButton(onClick: () -> Unit) {
+fun GoogleLoginButton(
+    isSignup: Boolean = false,
+    onClick: () -> Unit,
+) {
+    val buttonText =
+        if (!isSignup) {
+            stringResource(Res.string.sign_in_with, "Google")
+        } else {
+            stringResource(Res.string.sign_up_with, "Google")
+        }
     SocialLoginButton(
         onClick = onClick,
         buttonText = stringResource(Res.string.sign_in_with, "Google"),
@@ -42,10 +52,19 @@ fun GoogleLoginButton(onClick: () -> Unit) {
 }
 
 @Composable
-fun BitbucketLoginButton(onClick: () -> Unit) {
+fun BitbucketLoginButton(
+    isSignup: Boolean = false,
+    onClick: () -> Unit,
+) {
+    val buttonText =
+        if (!isSignup) {
+            stringResource(Res.string.sign_in_with, "Bitbucket")
+        } else {
+            stringResource(Res.string.sign_up_with, "Bitbucket")
+        }
     SocialLoginButton(
         onClick = onClick,
-        buttonText = stringResource(Res.string.sign_in_with, "Bitbucket"),
+        buttonText = buttonText,
         backgroundColor = Color(0xFF205081),
         contentColor = Color.White,
         icon = painterResource(Res.drawable.ic_bitbucket_logo),
@@ -53,10 +72,19 @@ fun BitbucketLoginButton(onClick: () -> Unit) {
 }
 
 @Composable
-fun GitLabLoginButton(onClick: () -> Unit) {
+fun GitLabLoginButton(
+    isSignup: Boolean = false,
+    onClick: () -> Unit,
+) {
+    val buttonText =
+        if (!isSignup) {
+            stringResource(Res.string.sign_in_with, "GitLab")
+        } else {
+            stringResource(Res.string.sign_up_with, "GitLab")
+        }
     SocialLoginButton(
         onClick = onClick,
-        buttonText = stringResource(Res.string.sign_in_with, "GitLab"),
+        buttonText = buttonText,
         backgroundColor = Color(0xFFE24329),
         contentColor = Color.White,
         icon = painterResource(Res.drawable.ic_gitlab_logo),
@@ -64,10 +92,19 @@ fun GitLabLoginButton(onClick: () -> Unit) {
 }
 
 @Composable
-fun AppleLoginButton(onClick: () -> Unit) {
+fun AppleLoginButton(
+    isSignup: Boolean = false,
+    onClick: () -> Unit,
+) {
+    val buttonText =
+        if (!isSignup) {
+            stringResource(Res.string.sign_in_with, "Apple")
+        } else {
+            stringResource(Res.string.sign_up_with, "Apple")
+        }
     SocialLoginButton(
         onClick = onClick,
-        buttonText = stringResource(Res.string.sign_in_with, "Apple"),
+        buttonText = buttonText,
         backgroundColor = Color.Black,
         contentColor = Color.White,
         icon = painterResource(Res.drawable.ic_apple_logo),
@@ -75,10 +112,19 @@ fun AppleLoginButton(onClick: () -> Unit) {
 }
 
 @Composable
-fun FacebookLoginButton(onClick: () -> Unit) {
+fun FacebookLoginButton(
+    isSignup: Boolean = false,
+    onClick: () -> Unit,
+) {
+    val buttonText =
+        if (!isSignup) {
+            stringResource(Res.string.sign_in_with, "Facebook")
+        } else {
+            stringResource(Res.string.sign_up_with, "Facebook")
+        }
     SocialLoginButton(
         onClick = onClick,
-        buttonText = stringResource(Res.string.sign_in_with, "Facebook"),
+        buttonText = buttonText,
         backgroundColor = Color(0xFF1877F2),
         contentColor = Color.White,
         icon = painterResource(Res.drawable.ic_facebook_logo),
@@ -86,10 +132,19 @@ fun FacebookLoginButton(onClick: () -> Unit) {
 }
 
 @Composable
-fun GitHubLoginButton(onClick: () -> Unit) {
+fun GitHubLoginButton(
+    isSignup: Boolean = false,
+    onClick: () -> Unit,
+) {
+    val buttonText =
+        if (!isSignup) {
+            stringResource(Res.string.sign_in_with, "GitHub")
+        } else {
+            stringResource(Res.string.sign_up_with, "GitHub")
+        }
     SocialLoginButton(
         onClick = onClick,
-        buttonText = stringResource(Res.string.sign_in_with, "GitHub"),
+        buttonText = buttonText,
         backgroundColor = Color.Black,
         contentColor = Color.White,
         icon = painterResource(Res.drawable.ic_github_logo),

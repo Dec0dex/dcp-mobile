@@ -17,8 +17,6 @@ import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
-import androidx.compose.runtime.getValue
-import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.font.FontWeight
@@ -32,12 +30,10 @@ import dcp_mobile.composeapp.generated.resources.login_title
 import dcp_mobile.composeapp.generated.resources.new_here
 import dcp_mobile.composeapp.generated.resources.sign_up
 import net.decodex.dcp.ui.components.AppleLoginButton
-import net.decodex.dcp.ui.components.BitbucketLoginButton
 import net.decodex.dcp.ui.components.EmailField
 import net.decodex.dcp.ui.components.ErrorDialog
 import net.decodex.dcp.ui.components.FacebookLoginButton
 import net.decodex.dcp.ui.components.GitHubLoginButton
-import net.decodex.dcp.ui.components.GitLabLoginButton
 import net.decodex.dcp.ui.components.GoogleLoginButton
 import net.decodex.dcp.ui.components.LoadingOverlay
 import net.decodex.dcp.ui.components.ORComponent
@@ -120,24 +116,20 @@ fun LoginForm(
         Spacer(modifier = Modifier.height(8.dp))
         ORComponent()
         Spacer(modifier = Modifier.height(24.dp))
-        GoogleLoginButton(onClick = {})
+        GoogleLoginButton(onClick = { onEvent(LoginEvent.SignInWithGoogle) })
         Spacer(modifier = Modifier.height(8.dp))
-        FacebookLoginButton(onClick = {})
+        GitHubLoginButton(onClick = { onEvent(LoginEvent.SignInWithGitHub) })
         Spacer(modifier = Modifier.height(8.dp))
-        GitHubLoginButton(onClick = {})
+        FacebookLoginButton(onClick = { onEvent(LoginEvent.SignInWithFacebook) })
         Spacer(modifier = Modifier.height(8.dp))
-        GitLabLoginButton(onClick = {})
-        Spacer(modifier = Modifier.height(8.dp))
-        BitbucketLoginButton(onClick = {})
-        Spacer(modifier = Modifier.height(8.dp))
-        AppleLoginButton(onClick = {})
+        AppleLoginButton(onClick = { onEvent(LoginEvent.SignInWithApple) })
     }
 
     LoadingOverlay(isLoading = state.isLoading)
     if (state.isErrorVisible) {
         ErrorDialog(
             title = stringResource(Res.string.login_error),
-            errorMessage = state.apiError?.message,
+            errorMessage = state.apiError,
             onDismiss = { onEvent(LoginEvent.DismissErrorDialog) },
         )
     }

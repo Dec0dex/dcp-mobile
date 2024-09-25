@@ -7,7 +7,7 @@ import androidx.datastore.preferences.core.stringPreferencesKey
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
-import kotlinx.coroutines.flow.last
+import kotlinx.coroutines.flow.firstOrNull
 import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.launch
 import kotlinx.serialization.ExperimentalSerializationApi
@@ -62,7 +62,7 @@ class SuperTokensUserRepositoryImpl(
             user?.let {
                 json.decodeFromString<SuperTokensUser>(user)
             }
-        }.last()
+        }.firstOrNull()
 
     companion object {
         private val KEY_SuperTokensUser = stringPreferencesKey("SuperTokensUser")

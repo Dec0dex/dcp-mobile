@@ -7,4 +7,7 @@ object NavRoutes {
     const val REGISTER = "register"
     const val FORGOT_PASSWORD = "forgot-password"
     const val MFA = "mfa"
+    const val TOTP = "totp"
+    const val EMAIL_OTP = "email-otp"
+    const val PHONE_OTP = "phone-otp"
 }

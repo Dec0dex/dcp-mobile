@@ -10,6 +10,7 @@
 | [net.decodex.dcp](compose-app/net.decodex.dcp/index.md) |
 | [net.decodex.dcp.core.constants](compose-app/net.decodex.dcp.core.constants/index.md) |
 | [net.decodex.dcp.core.data](compose-app/net.decodex.dcp.core.data/index.md) |
+| [net.decodex.dcp.core.launchdarkly](compose-app/net.decodex.dcp.core.launchdarkly/index.md) |
 | [net.decodex.dcp.core.networking](compose-app/net.decodex.dcp.core.networking/index.md) |
 | [net.decodex.dcp.core.presentation](compose-app/net.decodex.dcp.core.presentation/index.md) |
 | [net.decodex.dcp.core.supertokens](compose-app/net.decodex.dcp.core.supertokens/index.md) |
@@ -35,10 +36,16 @@
 | [net.decodex.dcp.core.supertokens.responses](compose-app/net.decodex.dcp.core.supertokens.responses/index.md) |
 | [net.decodex.dcp.core.utils](compose-app/net.decodex.dcp.core.utils/index.md) |
 | [net.decodex.dcp.di](compose-app/net.decodex.dcp.di/index.md) |
+| [net.decodex.dcp.features.auth.presentation](compose-app/net.decodex.dcp.features.auth.presentation/index.md) |
+| [net.decodex.dcp.features.emailotp.presnetation](compose-app/net.decodex.dcp.features.emailotp.presnetation/index.md) |
+| [net.decodex.dcp.features.forgotpassword.presentation](compose-app/net.decodex.dcp.features.forgotpassword.presentation/index.md) |
 | [net.decodex.dcp.features.login.presentation](compose-app/net.decodex.dcp.features.login.presentation/index.md) |
+| [net.decodex.dcp.features.mfa.presentation](compose-app/net.decodex.dcp.features.mfa.presentation/index.md) |
+| [net.decodex.dcp.features.register.presentation](compose-app/net.decodex.dcp.features.register.presentation/index.md) |
+| [net.decodex.dcp.features.totp.presentation](compose-app/net.decodex.dcp.features.totp.presentation/index.md) |
+| [net.decodex.dcp.features.user.domain.dao](compose-app/net.decodex.dcp.features.user.domain.dao/index.md) |
+| [net.decodex.dcp.features.user.domain.entities](compose-app/net.decodex.dcp.features.user.domain.entities/index.md) |
 | [net.decodex.dcp.ui](compose-app/net.decodex.dcp.ui/index.md) |
 | [net.decodex.dcp.ui.animtations](compose-app/net.decodex.dcp.ui.animtations/index.md) |
 | [net.decodex.dcp.ui.components](compose-app/net.decodex.dcp.ui.components/index.md) |
 | [net.decodex.dcp.ui.theme](compose-app/net.decodex.dcp.ui.theme/index.md) |
-| [net.decodex.dcp.user.domain.dao](compose-app/net.decodex.dcp.user.domain.dao/index.md) |
-| [net.decodex.dcp.user.domain.entities](compose-app/net.decodex.dcp.user.domain.entities/index.md) |
