@@ -29,7 +29,7 @@ composeTest = "1.7.1"
 kover = "0.8.3"
 dokka = "1.9.20"
 ktlint = "12.1.1"
-spotless = "6.25.0"
+spotless = "7.0.2"
 detekt = "1.23.3"
 
 [libraries]
